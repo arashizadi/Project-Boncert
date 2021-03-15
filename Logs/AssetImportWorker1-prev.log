@@ -1,0 +1,442 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/ekemini/Documents/OTHER/unity/Project-Boncert
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50535
+Successfully changed project path to: /Users/ekemini/Documents/OTHER/unity/Project-Boncert
+/Users/ekemini/Documents/OTHER/unity/Project-Boncert
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ekemini/Documents/OTHER/unity/Project-Boncert/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-14 04:03:43.328 Unity[16424:1556343] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2021-03-14 04:03:43.328 Unity[16424:1556343] Metal devices available: 1
+2021-03-14 04:03:43.328 Unity[16424:1556343] 0: Intel HD Graphics 4000 (low power)
+2021-03-14 04:03:43.329 Unity[16424:1556343] Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001283 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.225 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Find all reader and writers took 104 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took53 milliseconds
+Find all reader and writers took 71 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took11 milliseconds
+Find all reader and writers took 67 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took35 milliseconds
+Find all reader and writers took 73 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took73 milliseconds
+Find all reader and writers took 66 milliseconds
+Script Module: Unity.ProBuilder.dll
+Weave behaviours and messages took76 milliseconds
+Find all reader and writers took 60 milliseconds
+Script Module: Cinemachine.dll
+Weave behaviours and messages took58 milliseconds
+Find all reader and writers took 67 milliseconds
+Script Module: Mirror.Components.dll
+[NetworkAnimator] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkLobbyPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkVisibility] Found NetworkBehaviour Mirror.NetworkVisibility
+[NetworkVisibility] Process Start
+[NetworkVisibility]   GenerateSerialization
+[NetworkVisibility]   GenerateDeSerialization
+[NetworkVisibility] Process Done
+[NetworkMatchChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkOwnerChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkProximityChecker] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkSceneChecker] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+[NetworkLerpRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody2D] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+Weave behaviours and messages took42 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0443590
+Find all reader and writers took 71 milliseconds
+Script Module: Mirror.Tests.Common.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 90 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took109 milliseconds
+Find all reader and writers took 62 milliseconds
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Weave behaviours and messages took10 milliseconds
+Find all reader and writers took 67 milliseconds
+Script Module: Unity.Postprocessing.Runtime.dll
+Weave behaviours and messages took26 milliseconds
+Find all reader and writers took 58 milliseconds
+Script Module: Mirror.Tests.Runtime.dll
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 61 milliseconds
+Script Module: Assembly-CSharp.dll
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkRoomPlayerExt] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+Weave behaviours and messages took4 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0002550
+Find all reader and writers took 65 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 60 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took5 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0002920
+Find all reader and writers took 54 milliseconds
+Script Module: Unity.ProBuilder.Csg.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 58 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 59 milliseconds
+Script Module: Mirror.Cloud.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 54 milliseconds
+Script Module: Unity.ProBuilder.KdTree.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 54 milliseconds
+Script Module: Unity.ProBuilder.Stl.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 56 milliseconds
+Script Module: Mirror.Tests.Performance.Runtime.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 111 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took56 milliseconds
+Find all reader and writers took 101 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took17 milliseconds
+Find all reader and writers took 95 milliseconds
+Script Module: com.unity.cinemachine.editor.dll
+Weave behaviours and messages took50 milliseconds
+Find all reader and writers took 105 milliseconds
+Script Module: Mirror.Tests.dll
+[EmptyBehaviour] NetworkBehaviourProcessor
+[SyncVarGameObjectEqualExposedBehaviour] NetworkBehaviourProcessor
+[SyncVarNetworkIdentityEqualExposedBehaviour] NetworkBehaviourProcessor
+[NetworkBehaviourSendCommandInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSendRPCInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSendTargetRPCInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourDelegateComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSetSyncVarGameObjectComponent] NetworkBehaviourProcessor
+[NetworkBehaviourGetSyncVarGameObjectComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
+[NetworkBehaviourGetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
+[NetworkBehaviourInitSyncObjectExposed] NetworkBehaviourProcessor
+[OnStopClientComponent] NetworkBehaviourProcessor
+[OnStartClientComponent] NetworkBehaviourProcessor
+[OnStartLocalPlayerComponent] NetworkBehaviourProcessor
+[NetworkBehaviourHookGuardTester] NetworkBehaviourProcessor
+[NetworkBehaviourInitSyncObjectTester] NetworkBehaviourProcessor
+[CommandTestNetworkBehaviour] NetworkBehaviourProcessor
+[RpcTestNetworkBehaviour] NetworkBehaviourProcessor
+[OnStartClientTestNetworkBehaviour] NetworkBehaviourProcessor
+[OnStopClientTestNetworkBehaviour] NetworkBehaviourProcessor
+[TestObjectBehaviour] NetworkBehaviourProcessor
+[TestPlayerBehaviour] NetworkBehaviourProcessor
+[HookBehaviour] NetworkBehaviourProcessor
+[GameObjectHookBehaviour] NetworkBehaviourProcessor
+[NetworkIdentityHookBehaviour] NetworkBehaviourProcessor
+[NetworkBehaviourHookBehaviour] NetworkBehaviourProcessor
+[StaticHookBehaviour] NetworkBehaviourProcessor
+[VirtualHookBase] NetworkBehaviourProcessor
+[VirtualHookBase] NetworkBehaviourProcessor
+[VirtualOverrideHook] NetworkBehaviourProcessor
+[AbstractHookBase] NetworkBehaviourProcessor
+[AbstractHookBase] NetworkBehaviourProcessor
+[AbstractHook] NetworkBehaviourProcessor
+[MockPlayer] NetworkBehaviourProcessor
+[SyncVarGameObject] NetworkBehaviourProcessor
+[SyncVarNetworkIdentity] NetworkBehaviourProcessor
+[SyncVarTransform] NetworkBehaviourProcessor
+[SyncVarNetworkBehaviour] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[BehaviourWithSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourFromSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourWithSyncVarFromSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClass] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClass] NetworkBehaviourProcessor
+[SubClass] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClassWithSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClassWithSyncVar] NetworkBehaviourProcessor
+[SubClassFromSyncVar] NetworkBehaviourProcessor
+[BehaviourWithSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourWithSyncVarFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AttributeBehaviour_NetworkBehaviour] NetworkBehaviourProcessor
+[DataSenderBehaviour] NetworkBehaviourProcessor
+[PayloadTestBehaviour] NetworkBehaviourProcessor
+[BehaviourWithEvents] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualNoOverrideClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualOverrideClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualOverrideClientRpcWithBase] NetworkBehaviourProcessor
+[ClientRpcBehaviour] NetworkBehaviourProcessor
+[ExcludeOwnerBehaviour] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualNoOverrideCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase2] NetworkBehaviourProcessor
+[AuthorityBehaviour] NetworkBehaviourProcessor
+[IgnoreAuthorityBehaviour] NetworkBehaviourProcessor
+[SenderConnectionBehaviour] NetworkBehaviourProcessor
+[SenderConnectionIgnoreAuthorityBehaviour] NetworkBehaviourProcessor
+[ThrowBehaviour] NetworkBehaviourProcessor
+[RpcNetworkIdentityBehaviour] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualNoOverrideTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualOverrideTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualOverrideTargetRpcWithBase] NetworkBehaviourProcessor
+[TargetRpcBehaviour] NetworkBehaviourProcessor
+Weave behaviours and messages took148 milliseconds
+  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0065220
+Find all reader and writers took 66 milliseconds
+Script Module: WeaverTestExtraAssembly.dll
+Weave behaviours and messages took4 milliseconds
+  ProcessSitesModule WeaverTestExtraAssembly.dll elapsed time:00:00:00.0002300
+Find all reader and writers took 107 milliseconds
+Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 72 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in  8.287 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 173.7 MB.
+
+Unloading 124 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 7.140816 ms (FindLiveObjects: 0.391111 ms CreateObjectMapping: 0.127250 ms MarkObjects: 4.994880 ms  DeleteObjects: 1.625393 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SFX/FastMobileBloom/FastMobileBloom.mat
+  artifactKey: Guid(221340b8b5ad10940ba1646f87e3770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/FastMobileBloom.mat using Guid(221340b8b5ad10940ba1646f87e3770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315de881e0097dd7eaf6eef5393cffb4') in 0.711073 seconds
+  Import took 0.720590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.691893 seconds.
+  path: Assets/SFX/FastMobileBloom/readme.txt
+  artifactKey: Guid(c56ad540d0ba2b149a46015d66fa1168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/readme.txt using Guid(c56ad540d0ba2b149a46015d66fa1168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462e31ae2db7df8351689d6683a6ec20') in 0.648438 seconds
+  Import took 0.654631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.592628 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene
+  artifactKey: Guid(ecaf78feece08a44abb6105b4bac6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene using Guid(ecaf78feece08a44abb6105b4bac6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29794b19fdf84db7181dd35cce8c9e92') in 0.005005 seconds
+  Import took 0.012713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.954038 seconds.
+  path: Assets/SFX/FastMobileBloom/FastMobileBloom.cs
+  artifactKey: Guid(4cb4d9bd051a71f48a18edd27bce7c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/FastMobileBloom.cs using Guid(4cb4d9bd051a71f48a18edd27bce7c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aaee4b55e7aa8c97ef9d9e0cc56bb1') in 0.569656 seconds
+  Import took 0.575725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.808757 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials
+  artifactKey: Guid(0c9f80adac51ef54fb2d96a527c55d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials using Guid(0c9f80adac51ef54fb2d96a527c55d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf330817023a6aacad4cc6a9eb8223cf') in 0.006207 seconds
+  Import took 0.013812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162756 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/back.mat
+  artifactKey: Guid(8b52541245d03674d985fb4d3acc6504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/back.mat using Guid(8b52541245d03674d985fb4d3acc6504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b278838e846ebfdd92999752fa2c43') in 0.317047 seconds
+  Import took 0.323890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/letters.mat
+  artifactKey: Guid(dc0e7a6e94e39ec438113676b99e09ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/letters.mat using Guid(dc0e7a6e94e39ec438113676b99e09ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4cbcb59fa5e540f1919a3f00a08c1') in 0.037026 seconds
+  Import took 0.043894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/walls.jpg
+  artifactKey: Guid(16f21adf54c795e42b63b41124e56925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/walls.jpg using Guid(16f21adf54c795e42b63b41124e56925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a9bcbe1721a0f5e46bc29f53676eb8') in 0.616967 seconds
+  Import took 0.623976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/border.mat
+  artifactKey: Guid(f8bb26225d6d30047a27fed6252f402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/border.mat using Guid(f8bb26225d6d30047a27fed6252f402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d2fc1af7e10f4538108665fabdc15') in 0.014042 seconds
+  Import took 0.020505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/wires.mat
+  artifactKey: Guid(862e6445d87ed8344ab86ba924fc8e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/wires.mat using Guid(862e6445d87ed8344ab86ba924fc8e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2b4c8f2ad936ac6fc18cf77d822603') in 0.017951 seconds
+  Import took 0.028873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Materials/walls.mat
+  artifactKey: Guid(7c724882742aef34ea736d053bfaafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Materials/walls.mat using Guid(7c724882742aef34ea736d053bfaafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297980e9776c3f07027fb5cf562abb07') in 0.017830 seconds
+  Import took 0.028977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.389558 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Hotel
+  artifactKey: Guid(7590a81872706d449a7b83b43c64f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Hotel using Guid(7590a81872706d449a7b83b43c64f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36e1ef548beb5faf40b5c9233aa92b6') in 0.002425 seconds
+  Import took 0.010659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Hotel
+  artifactKey: Guid(7590a81872706d449a7b83b43c64f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Hotel using Guid(7590a81872706d449a7b83b43c64f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36e1ef548beb5faf40b5c9233aa92b6') in 0.002600 seconds
+  Import took 0.009409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152773 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Hotel/LightingData.asset
+  artifactKey: Guid(ada533b3492ae034399d9676039b309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Hotel/LightingData.asset using Guid(ada533b3492ae034399d9676039b309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+
+ -> (artifact id: 'fce2ab45f2721cb23841b4778e2d5640') in 0.213850 seconds
+  Import took 0.221152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SFX/FastMobileBloom/testScene/Hotel/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0f30b897a7a895448b3f46cfbf516adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/testScene/Hotel/Lightmap-0_comp_light.exr using Guid(0f30b897a7a895448b3f46cfbf516adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc5fd0dc744c744c44d9844aeabf41') in 0.619546 seconds
+  Import took 0.625549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.420386 seconds.
+  path: Assets/Scenes/Less Intensity, but More Blur.preset
+  artifactKey: Guid(2f3194e81522340c5ad859e455c611db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Less Intensity, but More Blur.preset using Guid(2f3194e81522340c5ad859e455c611db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4f155637456df8898bdd7040920fda') in 0.197768 seconds
+  Import took 0.205058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003336 seconds.
+  path: Assets/Scenes/Less Intensity, but More Blur.preset
+  artifactKey: Guid(2f3194e81522340c5ad859e455c611db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Less Intensity, but More Blur.preset using Guid(2f3194e81522340c5ad859e455c611db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4f155637456df8898bdd7040920fda') in 0.008014 seconds
+  Import took 0.015043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 826.990887 seconds.
+  path: Assets/SFX/FastMobileBloom/Softer Glow.preset
+  artifactKey: Guid(ee43a500c2fdd47c98ca0dead595c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/FastMobileBloom/Softer Glow.preset using Guid(ee43a500c2fdd47c98ca0dead595c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bfd4a1aeb5625dfc72d7f095311625') in 0.019135 seconds
+  Import took 0.027568 seconds .
+
