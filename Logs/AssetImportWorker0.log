@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16313 MB
+OS: 'Windows 10 Pro; OS build 19042.906; Version 2009; 64bit' Language: 'en' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,107 +11,80 @@ C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Wolfgang/Desktop/48000/concert github/Project-Boncert
+C:/Users/arash/repos/Unity/Project-Boncert
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60713
-Successfully changed project path to: C:/Users/Wolfgang/Desktop/48000/concert github/Project-Boncert
-C:/Users/Wolfgang/Desktop/48000/concert github/Project-Boncert
+63553
+Successfully changed project path to: C:/Users/arash/repos/Unity/Project-Boncert
+C:/Users/arash/repos/Unity/Project-Boncert
 Using Asset Import Pipeline V2.
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Refreshing native plugins compatible for Editor in 61.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 206.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Wolfgang/Desktop/48000/concert github/Project-Boncert/Assets
+[Subsystems] Discovering subsystems at path C:/Users/arash/repos/Unity/Project-Boncert/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6589
+    VRAM:     8031 MB
+    Driver:   27.21.14.5771
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003366 seconds.
+Registered in 0.003893 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Refreshing native plugins compatible for Editor in 41.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
+- Completed reload, in  3.295 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008604 seconds.
+Registered in 0.018090 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Find all reader and writers took 79 milliseconds
+Find all reader and writers took 256 milliseconds
 Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took31 milliseconds
-Find all reader and writers took 60 milliseconds
+Weave behaviours and messages took110 milliseconds
+Find all reader and writers took 180 milliseconds
 Script Module: FMODUnity.dll
-Weave behaviours and messages took36 milliseconds
-Find all reader and writers took 53 milliseconds
+Weave behaviours and messages took102 milliseconds
+Find all reader and writers took 171 milliseconds
 Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 59 milliseconds
+Weave behaviours and messages took18 milliseconds
+Find all reader and writers took 155 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took23 milliseconds
-Find all reader and writers took 59 milliseconds
+Weave behaviours and messages took58 milliseconds
+Find all reader and writers took 189 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took55 milliseconds
-Find all reader and writers took 61 milliseconds
+Weave behaviours and messages took155 milliseconds
+Find all reader and writers took 214 milliseconds
 Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took56 milliseconds
-Find all reader and writers took 58 milliseconds
+Weave behaviours and messages took174 milliseconds
+Find all reader and writers took 149 milliseconds
 Script Module: Cinemachine.dll
-Weave behaviours and messages took36 milliseconds
-Find all reader and writers took 55 milliseconds
+Weave behaviours and messages took114 milliseconds
+Find all reader and writers took 175 milliseconds
 Script Module: Mirror.Components.dll
 [NetworkAnimator] NetworkBehaviourProcessor
 [NetworkRoomPlayer] NetworkBehaviourProcessor
@@ -143,24 +116,24 @@ Script Module: Mirror.Components.dll
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformChild] NetworkBehaviourProcessor
-Weave behaviours and messages took22 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0079788
-Find all reader and writers took 54 milliseconds
+Weave behaviours and messages took100 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0229958
+Find all reader and writers took 168 milliseconds
 Script Module: Mirror.Tests.Common.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 232 milliseconds
 Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took67 milliseconds
-Find all reader and writers took 51 milliseconds
+Weave behaviours and messages took235 milliseconds
+Find all reader and writers took 209 milliseconds
 Script Module: Unity.ProBuilder.Poly2Tri.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 60 milliseconds
+Weave behaviours and messages took9 milliseconds
+Find all reader and writers took 201 milliseconds
 Script Module: Unity.Postprocessing.Runtime.dll
-Weave behaviours and messages took22 milliseconds
-Find all reader and writers took 60 milliseconds
+Weave behaviours and messages took55 milliseconds
+Find all reader and writers took 178 milliseconds
 Script Module: Mirror.Tests.Runtime.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 57 milliseconds
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 191 milliseconds
 Script Module: Assembly-CSharp.dll
 [NetworkRoomPlayer] NetworkBehaviourProcessor
 [NetworkRoomPlayerExt] NetworkBehaviourProcessor
@@ -168,46 +141,46 @@ Script Module: Assembly-CSharp.dll
 [PlayerScore] NetworkBehaviourProcessor
 [RandomColor] NetworkBehaviourProcessor
 [Reward] NetworkBehaviourProcessor
-Weave behaviours and messages took5 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00
-Find all reader and writers took 58 milliseconds
+Weave behaviours and messages took14 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0010073
+Find all reader and writers took 183 milliseconds
 Script Module: Telepathy.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 59 milliseconds
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 184 milliseconds
 Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took1 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
-Find all reader and writers took 55 milliseconds
+Weave behaviours and messages took6 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0009917
+Find all reader and writers took 174 milliseconds
 Script Module: Unity.ProBuilder.Csg.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 56 milliseconds
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 181 milliseconds
 Script Module: kcp2k.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 62 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 180 milliseconds
 Script Module: Mirror.Cloud.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 57 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 170 milliseconds
 Script Module: Unity.ProBuilder.KdTree.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 57 milliseconds
+Weave behaviours and messages took16 milliseconds
+Find all reader and writers took 181 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 59 milliseconds
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 211 milliseconds
 Script Module: FMODUnityResonance.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 54 milliseconds
+Find all reader and writers took 199 milliseconds
 Script Module: Mirror.Tests.Performance.Runtime.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 84 milliseconds
+Find all reader and writers took 256 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took36 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took100 milliseconds
+Find all reader and writers took 269 milliseconds
 Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took10 milliseconds
-Find all reader and writers took 83 milliseconds
+Weave behaviours and messages took29 milliseconds
+Find all reader and writers took 364 milliseconds
 Script Module: com.unity.cinemachine.editor.dll
-Weave behaviours and messages took35 milliseconds
-Find all reader and writers took 77 milliseconds
+Weave behaviours and messages took130 milliseconds
+Find all reader and writers took 226 milliseconds
 Script Module: Mirror.Tests.dll
 [EmptyBehaviour] NetworkBehaviourProcessor
 [SyncVarGameObjectEqualExposedBehaviour] NetworkBehaviourProcessor
@@ -306,386 +279,54 @@ Script Module: Mirror.Tests.dll
 [VirtualTargetRpc] NetworkBehaviourProcessor
 [VirtualOverrideTargetRpcWithBase] NetworkBehaviourProcessor
 [TargetRpcBehaviour] NetworkBehaviourProcessor
-Weave behaviours and messages took91 milliseconds
-  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0039897
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took284 milliseconds
+  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0120031
+Find all reader and writers took 185 milliseconds
 Script Module: FMODUnityEditor.dll
-Weave behaviours and messages took18 milliseconds
-Find all reader and writers took 67 milliseconds
+Weave behaviours and messages took55 milliseconds
+Find all reader and writers took 200 milliseconds
 Script Module: WeaverTestExtraAssembly.dll
 Weave behaviours and messages took2 milliseconds
   ProcessSitesModule WeaverTestExtraAssembly.dll elapsed time:00:00:00
-Find all reader and writers took 79 milliseconds
+Find all reader and writers took 252 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 62 milliseconds
+Weave behaviours and messages took11 milliseconds
+Find all reader and writers took 179 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 88 milliseconds
+Find all reader and writers took 245 milliseconds
 Script Module: FMODUnityResonanceEditor.dll
-Weave behaviours and messages took0 milliseconds
+Weave behaviours and messages took3 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  6.863 seconds
+- Completed reload, in 21.393 seconds
 Platform modules already initialized, skipping
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
 ========================================================================
 Worker process is ready to serve import requests
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.6 MB.
-System memory in use after: 55.8 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.7 MB.
 
-Unloading 186 unused Assets to reduce memory usage. Loaded Objects now: 2578.
-Total: 3.418900 ms (FindLiveObjects: 0.416500 ms CreateObjectMapping: 0.162300 ms MarkObjects: 2.625100 ms  DeleteObjects: 0.213800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Streets_outline.png
-  artifactKey: Guid(1c5f19ba1e84a734393d329c4c9b0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Streets_outline.png using Guid(1c5f19ba1e84a734393d329c4c9b0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf5aabfe8fe2aae45437dbb0549bcbb') in 0.095282 seconds
-  Import took 0.098422 seconds .
+Unloading 187 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 9.967700 ms (FindLiveObjects: 1.744500 ms CreateObjectMapping: 0.758000 ms MarkObjects: 6.943100 ms  DeleteObjects: 0.519600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Windows_ilum.png
-  artifactKey: Guid(198bb06bb05649f44acab0433609c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Windows_ilum.png using Guid(198bb06bb05649f44acab0433609c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7741522b1bc05d962c01a66f552306da') in 0.010084 seconds
-  Import took 0.012951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Terrain.png
-  artifactKey: Guid(fcf23b864210d1b468c5bfc89b3ee9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Terrain.png using Guid(fcf23b864210d1b468c5bfc89b3ee9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1eea8af5ff738dd6614714c3516f1e') in 0.011872 seconds
-  Import took 0.014887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0.png
-  artifactKey: Guid(e3a6234f170c29841a2c1f4baa3b0732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0.png using Guid(e3a6234f170c29841a2c1f4baa3b0732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5363a3336666d4fbd256576848fad2f') in 0.021245 seconds
-  Import took 0.024062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_1_top.png
-  artifactKey: Guid(b1c18e9092dd1fe41a44e46f24a43e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_1_top.png using Guid(b1c18e9092dd1fe41a44e46f24a43e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49fd514fdbc7f75aff711d13db5a31f') in 0.008818 seconds
-  Import took 0.011858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Sidewalks_outline.png
-  artifactKey: Guid(bd8d7e6e58074524f860f81205f22aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Sidewalks_outline.png using Guid(bd8d7e6e58074524f860f81205f22aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb61c9f7273b71b18295059494a9f62f') in 0.008599 seconds
-  Import took 0.011621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_base.png
-  artifactKey: Guid(92dc242d7b6ee9c4bb990b8c533bbd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_base.png using Guid(92dc242d7b6ee9c4bb990b8c533bbd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c4e5cd320fd9cdcf87875b033c1cf5') in 0.012107 seconds
-  Import took 0.014987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_2.png
-  artifactKey: Guid(662e0a77530963a45b7cdb1de72a2cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_2.png using Guid(662e0a77530963a45b7cdb1de72a2cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a483a793aa74ee8f8e97686a77661cc') in 0.008897 seconds
-  Import took 0.011808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_blue.png
-  artifactKey: Guid(0ca1b838bfac15b4ba0ab78b7b7fd218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_blue.png using Guid(0ca1b838bfac15b4ba0ab78b7b7fd218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6f2b19665fe2adcb266afa535fbc3e') in 0.007860 seconds
-  Import took 0.011023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Solar_panel_base.png
-  artifactKey: Guid(a14a1fd5c7cf98b42be068c4d6f5c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Solar_panel_base.png using Guid(a14a1fd5c7cf98b42be068c4d6f5c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3cc48df958511ceff2f7111cba7251') in 0.009431 seconds
-  Import took 0.012250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_pink.png
-  artifactKey: Guid(db10f234bb60af84082639ecc496aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_pink.png using Guid(db10f234bb60af84082639ecc496aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d800bac9e247357fcef2f74d6f89902') in 0.008644 seconds
-  Import took 0.011503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_1.png
-  artifactKey: Guid(e498d0f4cc74c644b90f8f191ea63ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_1.png using Guid(e498d0f4cc74c644b90f8f191ea63ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b251b3798e71c5d0925177cc91b6f8') in 0.010139 seconds
-  Import took 0.013289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_orange.png
-  artifactKey: Guid(d52d3b8d1c8e1954f9accbced5f575b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_orange.png using Guid(d52d3b8d1c8e1954f9accbced5f575b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfae8fc13db60744edf84d0fc7eac88') in 0.008344 seconds
-  Import took 0.011329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_green.png
-  artifactKey: Guid(f105b7e71f74a0f46bbd8d1a66a70646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_green.png using Guid(f105b7e71f74a0f46bbd8d1a66a70646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af2f9462097f9b1379cd46902fba583') in 0.009461 seconds
-  Import took 0.012383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Trash.png
-  artifactKey: Guid(0679d853469c4124b926e5ad147f2c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Trash.png using Guid(0679d853469c4124b926e5ad147f2c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26030f41c3e0e6f3ac0e15978e421c3') in 0.009019 seconds
-  Import took 0.011850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_outline.png
-  artifactKey: Guid(de27e5cdff1b16749a5777c5dcff1745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_outline.png using Guid(de27e5cdff1b16749a5777c5dcff1745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27473e300e6189a0f3378e1df1c984c') in 0.009013 seconds
-  Import took 0.011896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_support.png
-  artifactKey: Guid(eebf5c766a6da92478641b73ddd872cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Bridge_support.png using Guid(eebf5c766a6da92478641b73ddd872cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287569f9582708da817ecd7398e84f9b') in 0.010396 seconds
-  Import took 0.013405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_red.png
-  artifactKey: Guid(06838cd1f6844e547be28dee115fdf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_neon_red.png using Guid(06838cd1f6844e547be28dee115fdf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587cc992a8353cb414c7a49e4478871c') in 0.008574 seconds
-  Import took 0.011519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Sidewalks.png
-  artifactKey: Guid(ed9d4778508cca44eac20ff2ed4debbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Sidewalks.png using Guid(ed9d4778508cca44eac20ff2ed4debbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d53fdf1f5d91839e79ad9a8f3b4e711') in 0.010460 seconds
-  Import took 0.013814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_adds.png
-  artifactKey: Guid(1cecd6cdf57f3a5458646afe9717d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_adds.png using Guid(1cecd6cdf57f3a5458646afe9717d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd57f9e9366b0a89465ce8e88ced941c') in 0.012141 seconds
-  Import took 0.015415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Solar_panel.png
-  artifactKey: Guid(fb76b9eb4d798ca4f83fd8f0904d96dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Solar_panel.png using Guid(fb76b9eb4d798ca4f83fd8f0904d96dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f75bd12f2936b14d109781ceb7c7a25') in 0.009340 seconds
-  Import took 0.012443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_2D.png
-  artifactKey: Guid(d93abd1dc6f30cc42b79369e2dd5d05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_2D.png using Guid(d93abd1dc6f30cc42b79369e2dd5d05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2718c880441643ee92510c762bbebf69') in 0.010614 seconds
-  Import took 0.013759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_lights_outline.png
-  artifactKey: Guid(483ee92f0db15394cb9407745f0d3c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_lights_outline.png using Guid(483ee92f0db15394cb9407745f0d3c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe37b176be48a174f52c5b088d4d8ef') in 0.008757 seconds
-  Import took 0.011995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Holograms_2D.png
-  artifactKey: Guid(640e660e2f843bd449c2c07439a7c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Holograms_2D.png using Guid(640e660e2f843bd449c2c07439a7c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263ddeb8109eddfecc5bfada4fbd6a3f') in 0.014771 seconds
-  Import took 0.017747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/HoverCars.png
-  artifactKey: Guid(a7ab766cb23ff0f479697b2eb5a4e5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/HoverCars.png using Guid(a7ab766cb23ff0f479697b2eb5a4e5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea32c1a8345d065813d829cc8962b157') in 0.009214 seconds
-  Import took 0.012343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Red_dish.png
-  artifactKey: Guid(2eff6831f0d6a9848b61dd111ac39278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Red_dish.png using Guid(2eff6831f0d6a9848b61dd111ac39278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d562eab8220322d28f3d206575719eb') in 0.009423 seconds
-  Import took 0.012774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Terrain_base.png
-  artifactKey: Guid(93a1e1368c13b2148887b5f671f2e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Terrain_base.png using Guid(93a1e1368c13b2148887b5f671f2e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9855801ce0b561ee35933361e945aee0') in 0.012065 seconds
-  Import took 0.015092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0_1.png
-  artifactKey: Guid(99f67e81e97363f49bf71213a2bb9fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0_1.png using Guid(99f67e81e97363f49bf71213a2bb9fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b70d2c7171b5a44ee25d5c5e23d71') in 0.010019 seconds
-  Import took 0.013080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_lights.png
-  artifactKey: Guid(b30f84017ab47ee469547b0f9b22a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Publicity_lights.png using Guid(b30f84017ab47ee469547b0f9b22a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5297c8598061264020ac6683de460ea1') in 0.010284 seconds
-  Import took 0.013485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Windows_off.png
-  artifactKey: Guid(b41758b13125e3c44b216f47345ab277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Windows_off.png using Guid(b41758b13125e3c44b216f47345ab277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b6d16ed290b8b2b23373401e99dc52') in 0.014380 seconds
-  Import took 0.017659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0_top.png
-  artifactKey: Guid(a9aea14637112a64da615f95b39a1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Buildings_0_top.png using Guid(a9aea14637112a64da615f95b39a1b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e51ef17fd29c32fee832fc829428f8') in 0.015811 seconds
-  Import took 0.019748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001298 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Lamppost.png
-  artifactKey: Guid(041016b1db8b13d418111f20f4b8f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Lamppost.png using Guid(041016b1db8b13d418111f20f4b8f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a8f426af7265725fcdc2cdbac3125f') in 0.018171 seconds
-  Import took 0.022502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Streets.png
-  artifactKey: Guid(10ac90d60e22b2e4187ffbf1ccdea956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/cities/cyber-city-2099/textures/Streets.png using Guid(10ac90d60e22b2e4187ffbf1ccdea956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c518df8f83e37e1a393dd47c6404d37') in 0.019931 seconds
-  Import took 0.024624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 513.622975 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(04cf0060a67724c8ba94f0d1b21ccbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(04cf0060a67724c8ba94f0d1b21ccbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a68d4644dc5fa51a00addc74b144f') in 0.004354 seconds
-  Import took 0.011337 seconds .
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(6825b9034e38ae84b9bbe86d62d8974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(6825b9034e38ae84b9bbe86d62d8974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddcce279c44fb074604432d09a64506') in 0.227645 seconds
+  Import took 0.245542 seconds .
 
 ========================================================================
 Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Refreshing native plugins compatible for Editor in 22.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.1 MB.
-System memory in use after: 56.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 2580.
-Total: 7.737800 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.092300 ms MarkObjects: 7.323100 ms  DeleteObjects: 0.096600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 392.027164 seconds.
-  path: Assets/Scenes/Bryan.unity
-  artifactKey: Guid(cc07740937ff5234c9565fe7e00dbfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bryan.unity using Guid(cc07740937ff5234c9565fe7e00dbfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0b177a74bb5c553aaf52042bc9db6a') in 0.015938 seconds
-  Import took 0.018825 seconds .
-
-========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
 Registering precompiled user dll's ...
-Registered in 0.008682 seconds.
+Registered in 0.022785 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -702,46 +343,25 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
+- Completed reload, in  1.936 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.1 MB.
+Unloading 903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 2.260900 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.893200 ms  DeleteObjects: 0.095400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.160518 seconds.
-  path: Assets/Scenes/Julian.unity
-  artifactKey: Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Julian.unity using Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9210001b4e9c737680178e7dcf14a466') in 0.027054 seconds
-  Import took 0.167706 seconds .
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 6.596700 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.545700 ms MarkObjects: 5.102300 ms  DeleteObjects: 0.499900 ms)
 
 ========================================================================
 Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
 Registering precompiled user dll's ...
-Registered in 0.009080 seconds.
+Registered in 0.008462 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -758,251 +378,15 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
+- Completed reload, in  1.270 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.2 MB.
+Unloading 903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 1.974400 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.672500 ms  DeleteObjects: 0.075600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 667.302431 seconds.
-  path: Assets/Scenes/Julian.unity
-  artifactKey: Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Julian.unity using Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fda93a6a108d3005ebf46f0a9f45f8') in 0.010803 seconds
-  Import took 0.014708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.306661 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/scene.bin
-  artifactKey: Guid(475b858e7586c184683723b09622a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/scene.bin using Guid(475b858e7586c184683723b09622a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39783f7ebf4b7f999833570d07e04a6f') in 0.007358 seconds
-  Import took 0.010138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.596467 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/credit.txt
-  artifactKey: Guid(c57be95d536576b469e3db3b679cb997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/credit.txt using Guid(c57be95d536576b469e3db3b679cb997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4a7e0eb3a1cef8f0c2b448fabb76ba') in 0.011125 seconds
-  Import took 0.014311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.918291 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures
-  artifactKey: Guid(af31b493b8f91cc41b0e99d33c4ff639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures using Guid(af31b493b8f91cc41b0e99d33c4ff639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3917b31f7a8598522708022404f120e6') in 0.004380 seconds
-  Import took 0.007620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.979775 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_baseColor.jpeg
-  artifactKey: Guid(fe018fb087732ff42bb4e7708f6b65fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_baseColor.jpeg using Guid(fe018fb087732ff42bb4e7708f6b65fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc43676639c2b482943ce0f7da6f376f') in 0.054116 seconds
-  Import took 0.065272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_metallicRoughness.png
-  artifactKey: Guid(cf2f0a25e0cb65e4eb565807b02a6565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_metallicRoughness.png using Guid(cf2f0a25e0cb65e4eb565807b02a6565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235e7e33a1573f638b6a66672e9cac23') in 0.085543 seconds
-  Import took 0.088345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_normal.jpeg
-  artifactKey: Guid(0524ae96b50505942b227be21006058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_normal.jpeg using Guid(0524ae96b50505942b227be21006058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac6214177e82eb8f80eb0a4683e3af9') in 0.026252 seconds
-  Import took 0.028822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_emissive.jpeg
-  artifactKey: Guid(fabc0feb115199f4aa7a303640f743ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/015ma_hanging_advertisements/textures/015M_emissive.jpeg using Guid(fabc0feb115199f4aa7a303640f743ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227602c25f9b94d4cccdfe676e496798') in 0.021658 seconds
-  Import took 0.024292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 391.087774 seconds.
-  path: Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d
-  artifactKey: Guid(2cf4d60590e8907418ee2693ac7f2376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d using Guid(2cf4d60590e8907418ee2693ac7f2376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Untitled 2.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
- -> (artifact id: '3d4a0b15ab62d140ad6826c8636e86e5') in 0.011945 seconds
-  Import took 0.019152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 834.138821 seconds.
-  path: Assets/Scenes/environment pack/signage/uploads_files_872007_sign_neon_small_vert.fbx
-  artifactKey: Guid(ecff2e34e5d58c34a92d59206dddca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/uploads_files_872007_sign_neon_small_vert.fbx using Guid(ecff2e34e5d58c34a92d59206dddca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb635f810f043ed7927bd18091241889') in 0.537319 seconds
-  Import took 0.557384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2645.299397 seconds.
-  path: Assets/Scenes/environment pack/signage/download (1).jpg
-  artifactKey: Guid(43d19660aa90b1a42a0fe4d2c3a2accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (1).jpg using Guid(43d19660aa90b1a42a0fe4d2c3a2accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1174541cf153b25cda1201845ed41d') in 0.061483 seconds
-  Import took 0.087541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Scenes/environment pack/signage/download.png
-  artifactKey: Guid(84d2b997ed9fbd6418532d3b74e690da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download.png using Guid(84d2b997ed9fbd6418532d3b74e690da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736cddace49815c2a6d62379460c2393') in 0.023399 seconds
-  Import took 0.034112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002256 seconds.
-  path: Assets/Scenes/environment pack/signage/e58685100ee5760570e03d28e944afe7.jpg
-  artifactKey: Guid(0fbc5f739a072c54fa2740c81f41b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/e58685100ee5760570e03d28e944afe7.jpg using Guid(0fbc5f739a072c54fa2740c81f41b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b6ba947bc176ea8808cf7ae74f633') in 0.014643 seconds
-  Import took 0.021601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Scenes/environment pack/signage/download (4).jpg
-  artifactKey: Guid(e0dae325159771c41b6cae90f965cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (4).jpg using Guid(e0dae325159771c41b6cae90f965cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497a0de2fbdb646fcbee009c371378a6') in 0.012071 seconds
-  Import took 0.015344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Scenes/environment pack/signage/download (3).png
-  artifactKey: Guid(626d2707d488b594aaff451b57ddf1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (3).png using Guid(626d2707d488b594aaff451b57ddf1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3edfdd227995f87ab70a91542b2f606') in 0.014882 seconds
-  Import took 0.018472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/environment pack/signage/download (3).jpg
-  artifactKey: Guid(26d3bab8b6fc93a4696c49919fb782a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (3).jpg using Guid(26d3bab8b6fc93a4696c49919fb782a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a72f6404787f5313090af1b2a3f1bc8') in 0.009969 seconds
-  Import took 0.014012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Scenes/environment pack/signage/uploads_files_867191_sign_neon_24h.fbx
-  artifactKey: Guid(2fe0c04f1a4383047acb64d2d4a3b27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/uploads_files_867191_sign_neon_24h.fbx using Guid(2fe0c04f1a4383047acb64d2d4a3b27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826ef445ec48321ef7e40a010f7fd729') in 0.060595 seconds
-  Import took 0.064227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Scenes/environment pack/signage/images (1).jpg
-  artifactKey: Guid(228aa32232d8d0c479abf7de080dbbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/images (1).jpg using Guid(228aa32232d8d0c479abf7de080dbbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3961f6b0d0e5a2f0edbab5c89fe13c') in 0.009136 seconds
-  Import took 0.012094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/environment pack/signage/download (2).png
-  artifactKey: Guid(60e0cff6a8fd1ec4c80c4305fcb9d89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (2).png using Guid(60e0cff6a8fd1ec4c80c4305fcb9d89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eb8718a44e54f62150372b4b0c8a00') in 0.010020 seconds
-  Import took 0.013022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Scenes/environment pack/signage/images (3).jpg
-  artifactKey: Guid(5e4b17b4c5fee034194da0a5c065e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/images (3).jpg using Guid(5e4b17b4c5fee034194da0a5c065e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502ddb6eb7b4bece7d6eab2109cf7cab') in 0.009840 seconds
-  Import took 0.013277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Scenes/environment pack/signage/images (4).jpg
-  artifactKey: Guid(24e3c7be3cd89434a8aeb2f0b8679b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/images (4).jpg using Guid(24e3c7be3cd89434a8aeb2f0b8679b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bc5ceaddf218928eb6353cf9add8e4') in 0.008611 seconds
-  Import took 0.011661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Scenes/environment pack/signage/download (6).png
-  artifactKey: Guid(684d9ac0592987345b7c48d618b1587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (6).png using Guid(684d9ac0592987345b7c48d618b1587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0cebefda54df4f59a97d363b0d9f70') in 0.015989 seconds
-  Import took 0.019573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001035 seconds.
-  path: Assets/Scenes/environment pack/signage/download (1).png
-  artifactKey: Guid(f4126122f46510042a492916ce2b3331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (1).png using Guid(f4126122f46510042a492916ce2b3331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733af9f1085b9183147561bbe8d76dd7') in 0.010293 seconds
-  Import took 0.014269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Scenes/environment pack/signage/download.jpg
-  artifactKey: Guid(1fdf375711f68f542b0a1c33e0adb4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download.jpg using Guid(1fdf375711f68f542b0a1c33e0adb4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d586dd39094fc448b51ea0aac6c90c7') in 0.011580 seconds
-  Import took 0.014915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Scenes/environment pack/signage/images (2).jpg
-  artifactKey: Guid(af6fd2678cb1bd649b04f07894b59900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/images (2).jpg using Guid(af6fd2678cb1bd649b04f07894b59900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead08c3b6336e43ff940f7db9db8538d') in 0.013654 seconds
-  Import took 0.017125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Scenes/environment pack/signage/download (5).png
-  artifactKey: Guid(2abe7d41012a9bf49a0cb5d8c0525024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (5).png using Guid(2abe7d41012a9bf49a0cb5d8c0525024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf0e67168d3b0cbeda4ea7953e7a476') in 0.012466 seconds
-  Import took 0.016079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Scenes/environment pack/signage/images.jpg
-  artifactKey: Guid(651333a9743ee1f40a1c0ccbaad953d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/images.jpg using Guid(651333a9743ee1f40a1c0ccbaad953d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a58804b4b893177af811e128efb8ba2') in 0.010913 seconds
-  Import took 0.014344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/environment pack/signage/download (2).jpg
-  artifactKey: Guid(6a4bcbe6738a9bd47bcbe87e86390292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (2).jpg using Guid(6a4bcbe6738a9bd47bcbe87e86390292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de5d078d9c6b1507fd13982e513fae0') in 0.009312 seconds
-  Import took 0.012315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Scenes/environment pack/signage/download (4).png
-  artifactKey: Guid(f223a8b61738438419dfa4706153e67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/environment pack/signage/download (4).png using Guid(f223a8b61738438419dfa4706153e67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67649974efc4f0d79e07daf075a2d6b') in 0.012140 seconds
-  Import took 0.016290 seconds .
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 6.457500 ms (FindLiveObjects: 0.977100 ms CreateObjectMapping: 0.179200 ms MarkObjects: 5.124800 ms  DeleteObjects: 0.173300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

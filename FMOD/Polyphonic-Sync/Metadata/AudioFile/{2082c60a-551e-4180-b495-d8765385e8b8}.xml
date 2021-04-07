@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{2082c60a-551e-4180-b495-d8765385e8b8}">
+		<property name="assetPath">
+			<value>QUAL &amp; FREUDE - Tanz zu der Musik (Official Mix).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>402.42503401360545</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d951f0ee-d7db-4e3e-9c1d-b5e0117c288d}</destination>
+		</relationship>
+	</object>
+</objects>
