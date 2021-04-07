@@ -1,6 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7976193628590319344
+--- !u!114 &-4487927922780211824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Users/Bryan/Documents/FMOD Studio/Polyphonic-Sync/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637531760369871708
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 4017233862045536655}
+  - {fileID: -4487927922780211824}
+  EditorEvents:
+  - {fileID: 3408165158024092128}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4487927922780211824}
+  StringsBanks:
+  - {fileID: 4017233862045536655}
+  stringsBankWriteTime: 637531760369891588
+  cacheVersion: 6
+--- !u!114 &377833828588887197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +63,7 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &-4487927922780211824
+--- !u!114 &3408165158024092128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29,80 +72,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack
   m_EditorClassIdentifier: 
-  Path: ../../Users/Bryan/Documents/FMOD Studio/Polyphonic-Sync/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637521935770208667
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3598943186598270990}
-  - {fileID: 3718514740030074373}
-  EditorEvents:
-  - {fileID: 5034683154361091062}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 3718514740030074373}
-  StringsBanks:
-  - {fileID: 3598943186598270990}
-  stringsBankWriteTime: 637531760380000000
-  cacheVersion: 6
---- !u!114 &3598943186598270990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Polyphonic-Sync/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637531760380000000
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 802
-  Exists: 1
---- !u!114 &3718514740030074373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Polyphonic-Sync/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637531760380000000
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
+  Path: event:/Soundtrack
+  guid: 194441c4cc9fc54484668b4f6386923d
+  Banks:
+  - {fileID: -4487927922780211824}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 377833828588887197}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3086760
 --- !u!114 &4017233862045536655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,36 +102,12 @@ MonoBehaviour:
   Path: ../../Users/Bryan/Documents/FMOD Studio/Polyphonic-Sync/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637521935770218646
+  lastModified: 637531760369891588
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 746
+    Value: 802
   Exists: 1
---- !u!114 &5034683154361091062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Soundtrack
-  m_EditorClassIdentifier: 
-  Path: event:/Soundtrack
-  guid: 194441c4cc9fc54484668b4f6386923d
-  Banks:
-  - {fileID: 3718514740030074373}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7976193628590319344}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 3086760
 --- !u!114 &5632936324206552556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,8 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Song Test
   guid: 194441c4cc9fc54484668b4f6386923d
-  Banks:
-  - {fileID: -4487927922780211824}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
