@@ -61,7 +61,7 @@ MonoBehaviour:
   - {fileID: 3718514740030074373}
   StringsBanks:
   - {fileID: 3598943186598270990}
-  stringsBankWriteTime: 637531760380000000
+  stringsBankWriteTime: 637534068434278256
   cacheVersion: 6
 --- !u!114 &3598943186598270990
 MonoBehaviour:
@@ -78,7 +78,7 @@ MonoBehaviour:
   Path: FMOD/Polyphonic-Sync/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637531760380000000
+  lastModified: 637534068434278256
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -99,7 +99,7 @@ MonoBehaviour:
   Path: FMOD/Polyphonic-Sync/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637531760380000000
+  lastModified: 637534068438274676
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7976193628590319344}
+  - {fileID: 7774317423791356811}
   MinDistance: 0
   MaxDistance: 0
   Length: 3086760
@@ -171,3 +171,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 193103
+--- !u!114 &7774317423791356811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
