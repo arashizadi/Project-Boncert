@@ -26,7 +26,7 @@ public class FMODAudioVisualizer : MonoBehaviour
     private List<float> freqRanges = new List<float>();
     private int numSampleInFirstBand = 1;
 
-    private EventInstance _event;
+    private EventInstance SongPlaylist;
     private ChannelGroup channelGroup;
     private DSP DSPFFT;
     private DSP_PARAMETER_FFT fftparam;
@@ -40,9 +40,10 @@ public class FMODAudioVisualizer : MonoBehaviour
 
     private float time = 0f;
     private int frameCount = 0;
+
+    [Header("Song Change")]
+    public float NextPrevSong = 1f;
     
-    
-    // Start is called before the first frame update
     private void Start()
     {
         //Prepare FMOD event
@@ -62,16 +63,16 @@ public class FMODAudioVisualizer : MonoBehaviour
 
     private void PrepareFMODeventInstance()
     {
-        _event = RuntimeManager.CreateInstance(eventPath);
-        _event.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
-        if (playOnAwake)
-            _event.start();
+        SongPlaylist = RuntimeManager.CreateInstance(eventPath);
+        SongPlaylist.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
+        if(playOnAwake)
+            SongPlaylist.start();
 
         RuntimeManager.CoreSystem.createDSPByType(DSP_TYPE.FFT, out DSPFFT);
         DSPFFT.setParameterInt((int)DSP_FFT.WINDOWTYPE, (int)windowShape);
         DSPFFT.setParameterInt((int)DSP_FFT.WINDOWSIZE, windowSize * 2);
 
-        _event.getChannelGroup(out channelGroup);
+        SongPlaylist.getChannelGroup(out channelGroup);
         channelGroup.addDSP(0, DSPFFT);
     }
 
@@ -80,7 +81,7 @@ public class FMODAudioVisualizer : MonoBehaviour
         float singleSizeOfOneSample = 22050f / windowSize;
         float HzForFirstBand = singleSizeOfOneSample;
 
-        while (HzForFirstBand < 60f)
+        while(HzForFirstBand < 60f)
         {
             numSampleInFirstBand++;
             HzForFirstBand += singleSizeOfOneSample;
@@ -90,7 +91,7 @@ public class FMODAudioVisualizer : MonoBehaviour
         freqRanges.Add(HzForFirstBand);
         float hzRange = HzForFirstBand;
         float hzSize = HzForFirstBand;
-        while (hzRange < 22050f)
+        while(hzRange < 22050f)
         {
             hzSize *= 2;
             hzRange += hzSize;
@@ -104,17 +105,36 @@ public class FMODAudioVisualizer : MonoBehaviour
         int posOffSet = 0;
         float spaceOffset = 0;
         bandMeters = new GameObject[freqRanges.Count];
-        for (int i = 0; i < freqRanges.Count; i++)
+        for(int i = 0; i < freqRanges.Count; i++)
         {
             bandMeters[i] = Instantiate(MeterObject, transform.position, transform.rotation);
             bandMeters[i].transform.position = new Vector3(transform.position.x + posOffSet + spaceOffset, transform.position.y, transform.position.z);
 
-            if (bandMeters[i].GetComponent<ParamCube>() != null)
+            if(bandMeters[i].GetComponent<ParamCube>() != null)
             {
                 bandMeters[i].GetComponent<ParamCube>()._band = posOffSet;
             }
             posOffSet++;
             spaceOffset += SpaceBetweenMeters;
+        }
+    }
+
+    //The buttons that will change songs
+    public void NextSong()
+    {
+        NextPrevSong += 1f;
+        if(NextPrevSong > 11f)
+        {
+            NextPrevSong = 0f;
+        }
+    }
+
+    public void PrevSong()
+    {
+        NextPrevSong -= 1f;
+        if(NextPrevSong < 0f)
+        {
+            NextPrevSong = 11f;
         }
     }
 
@@ -124,6 +144,8 @@ public class FMODAudioVisualizer : MonoBehaviour
         FrequencyBands();
         BandBuffer();
         countFPS();
+
+        SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
     }
 
     private void GetSpectrumData()
@@ -134,34 +156,32 @@ public class FMODAudioVisualizer : MonoBehaviour
         DSPFFT.getParameterData(2, out data, out length);
         fftparam = (DSP_PARAMETER_FFT)Marshal.PtrToStructure(data, typeof(DSP_PARAMETER_FFT));
 
-        if (fftparam.numchannels == 0)
+        if(fftparam.numchannels == 0)
         {
-            _event.getChannelGroup(out channelGroup);
+            SongPlaylist.getChannelGroup(out channelGroup);
             channelGroup.addDSP(0, DSPFFT);
-            //Debug.Log("wait I'm not ready yet!");
         }
-        else if (fftparam.numchannels >= 1)
+        else if(fftparam.numchannels >= 1)
         {
-            for (int b = 0; b < windowSize; b++)
+            for(int b = 0; b < windowSize; b++)
             {
                 float totalChannelData = 0f;
-                for (int c = 0; c < fftparam.numchannels; c++)
+                for(int c = 0; c < fftparam.numchannels; c++)
                     totalChannelData += fftparam.spectrum[c][b];
                 _samples[b] = totalChannelData / fftparam.numchannels;
             }
-            //Debug.Log("working with: " + fftparam.numchannels + " channels here baby!");
         }
     }
 
     private void FrequencyBands()
     {
         int counter = 0;
-        for (int i = 0; i < freqRanges.Count; i++)
+        for(int i = 0; i < freqRanges.Count; i++)
         {
             float average = 0f;
             int numSampleInThisBand = numSampleInFirstBand * (int)Mathf.Pow(2, i);
 
-            for (int j = 0; j < numSampleInThisBand; j++)
+            for(int j = 0; j < numSampleInThisBand; j++)
             {
                 average += _samples[counter] * (counter + 1);
                 counter++;
@@ -173,7 +193,7 @@ public class FMODAudioVisualizer : MonoBehaviour
     
     private void BandBuffer()
     {
-        for (int i = 0; i < freqRanges.Count; i++)
+        for(int i = 0; i < freqRanges.Count; i++)
         {
             if(freqBands[i] > bandBuffer[i])
             {
@@ -187,7 +207,7 @@ public class FMODAudioVisualizer : MonoBehaviour
                 bufferDecrease[i] *= bufferAccelRate;
             }
 
-            if (bandBuffer[i] < 0)
+            if(bandBuffer[i] < 0)
                 bandBuffer[i] = 0f;
         }
     }
@@ -195,7 +215,7 @@ public class FMODAudioVisualizer : MonoBehaviour
     private void countFPS()
     {
         time += Time.deltaTime;
-        if (time > 1f)
+        if(time > 1f)
         {
             time = 0f;
             fps = 0;
@@ -207,24 +227,24 @@ public class FMODAudioVisualizer : MonoBehaviour
 
     public void PlayFMODEvent()
     {
-        _event.start();
+        SongPlaylist.start();
     }
 
     public void StopFMODEvent()
     {
-        _event.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        SongPlaylist.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     public void PauseFMODEvent()
     {
         bool p = false;
-        _event.getPaused(out p);
+        SongPlaylist.getPaused(out p);
         p = !p;
-        _event.setPaused(p);
+        SongPlaylist.setPaused(p);
     }
 
     private void OnDestroy()
     {
-        _event.release();
+        SongPlaylist.release();
     }
 }

@@ -400,12 +400,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66856449}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalRotation: {x: -0.1487685, y: -0, z: -0, w: 0.9888721}
+  m_LocalPosition: {x: 0.38, y: -0.614228, z: 0.29895487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2101892986}
-  m_RootOrder: 2
+  m_Father: {fileID: 554354399}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &226469700
 Mesh:
@@ -413,7 +413,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-10462
+  m_Name: pb_Mesh17648
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -596,7 +596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247372862}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6987975, y: -2.1039114, z: 10.527172}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1003355401}
@@ -614,10 +614,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8882a753dc48e7c47993cb63ec14dbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eventPath: event:/Song Test
+  _eventPath: event:/Soundtrack
   _windowSize: 512
   _windowShape: 2
   _samples: []
+  NextPrevSong: 0
 --- !u!1 &342805817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +1007,8 @@ Transform:
   m_LocalRotation: {x: 0.1487685, y: -0, z: -0, w: 0.9888721}
   m_LocalPosition: {x: -0.38, y: 0.675, z: 4.895}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 66856454}
   m_Father: {fileID: 2101892986}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 17.111, y: 0, z: 0}
@@ -1088,7 +1090,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635294374}
   m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
-  m_LocalPosition: {x: 0, y: 3, z: -6}
+  m_LocalPosition: {x: 0, y: 3, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1775374598}
@@ -1199,11 +1201,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643954522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.41, y: 0, z: 12}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1003355401}
-  m_RootOrder: 2
+  m_Father: {fileID: 692816801}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &643954527
 MonoBehaviour:
@@ -1219,14 +1221,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 0
   _startScale: 1
-  _scaleMultipler: 15
+  _scaleMultipler: 20
 --- !u!43 &691137149
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13034
+  m_Name: pb_Mesh17620
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1409,9 +1411,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692816800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 643954526}
   m_Father: {fileID: 1003355401}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1430,13 +1433,14 @@ MonoBehaviour:
   fps: 0
   eventPath: event:/Soundtrack
   playOnAwake: 1
-  windowSize: 1024
+  windowSize: 512
   windowShape: 2
   MeterObject: {fileID: 643954522}
-  meterIntensity: 2
+  meterIntensity: 3
   SpaceBetweenMeters: 0.5
-  bufferStartSpeed: 0.01
+  bufferStartSpeed: 0.005
   bufferAccelRate: 1.5
+  NextPrevSong: 0
 --- !u!1 &711446163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,9 +1451,10 @@ GameObject:
   m_Component:
   - component: {fileID: 711446164}
   - component: {fileID: 711446165}
+  - component: {fileID: 711446166}
   m_Layer: 0
   m_Name: Song Changer Trigger
-  m_TagString: Untagged
+  m_TagString: Changer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1476,11 +1481,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711446163}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 5, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &711446166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711446163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34c3de2aaa8fd24c90f782ef5f69ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SongUI: {fileID: 903996506}
 --- !u!1 &784306568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,7 +1527,7 @@ RectTransform:
   m_GameObject: {fileID: 784306568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 342805818}
   m_Father: {fileID: 903996507}
@@ -1517,7 +1535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 580, y: -150}
+  m_AnchoredPosition: {x: 250, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784306570
@@ -1563,7 +1581,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 784306571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 247372864}
+        m_TargetAssemblyTypeName: FMODSpectrumData, Assembly-CSharp
+        m_MethodName: NextSong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 692816804}
+        m_TargetAssemblyTypeName: FMODAudioVisualizer, Assembly-CSharp
+        m_MethodName: NextSong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &784306571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,7 +1758,7 @@ RectTransform:
   - {fileID: 2065354948}
   - {fileID: 784306569}
   m_Father: {fileID: 2101892986}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1752,7 +1794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1813,7 +1855,6 @@ Transform:
   m_Children:
   - {fileID: 247372863}
   - {fileID: 692816801}
-  - {fileID: 643954526}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2051,7 +2092,7 @@ GameObject:
   - component: {fileID: 1775374595}
   m_Layer: 0
   m_Name: Player Model
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2127,7 +2168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775374594}
   m_LocalRotation: {x: -0.0523359, y: -0, z: -0, w: 0.99862957}
-  m_LocalPosition: {x: 0, y: -2.4656494, z: 6.2386355}
+  m_LocalPosition: {x: 0, y: -1.45, z: 6.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 635294377}
@@ -2161,7 +2202,7 @@ RectTransform:
   m_GameObject: {fileID: 2065354947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 808300000}
   m_Father: {fileID: 903996507}
@@ -2169,7 +2210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -580, y: -150}
+  m_AnchoredPosition: {x: -250, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2065354949
@@ -2215,7 +2256,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2065354950}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 247372864}
+        m_TargetAssemblyTypeName: FMODSpectrumData, Assembly-CSharp
+        m_MethodName: PrevSong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 692816804}
+        m_TargetAssemblyTypeName: FMODAudioVisualizer, Assembly-CSharp
+        m_MethodName: PrevSong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2065354950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2283,7 +2348,6 @@ Transform:
   m_Children:
   - {fileID: 711446164}
   - {fileID: 554354399}
-  - {fileID: 66856454}
   - {fileID: 903996507}
   m_Father: {fileID: 0}
   m_RootOrder: 3
