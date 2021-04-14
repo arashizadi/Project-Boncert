@@ -21,7 +21,7 @@ public class SongTriggerScript : MonoBehaviour
     	if(SongMenuEnter.gameObject.tag == "Player")
     	{
     		SongUI.SetActive(true);
-            //Debug.Log("UI Active");
+            Debug.Log("UI Active");
     	}
     }
 

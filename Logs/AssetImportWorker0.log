@@ -15,7 +15,7 @@ C:/Repo/Project-Boncert
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60577
+54795
 Successfully changed project path to: C:/Repo/Project-Boncert
 C:/Repo/Project-Boncert
 Using Asset Import Pipeline V2.
@@ -27,7 +27,7 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 48.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -43,12 +43,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002035 seconds.
+Registered in 0.002439 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -59,48 +59,48 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 35.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
+- Completed reload, in  1.017 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005707 seconds.
+Registered in 0.005975 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Find all reader and writers took 82 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took29 milliseconds
-Find all reader and writers took 64 milliseconds
+Weave behaviours and messages took33 milliseconds
+Find all reader and writers took 59 milliseconds
 Script Module: FMODUnity.dll
 Weave behaviours and messages took32 milliseconds
-Find all reader and writers took 63 milliseconds
+Find all reader and writers took 58 milliseconds
 Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 63 milliseconds
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 58 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took26 milliseconds
-Find all reader and writers took 65 milliseconds
+Weave behaviours and messages took25 milliseconds
+Find all reader and writers took 62 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took45 milliseconds
-Find all reader and writers took 67 milliseconds
+Weave behaviours and messages took47 milliseconds
+Find all reader and writers took 58 milliseconds
 Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took48 milliseconds
-Find all reader and writers took 67 milliseconds
+Weave behaviours and messages took56 milliseconds
+Find all reader and writers took 60 milliseconds
 Script Module: Cinemachine.dll
-Weave behaviours and messages took33 milliseconds
-Find all reader and writers took 65 milliseconds
+Weave behaviours and messages took35 milliseconds
+Find all reader and writers took 60 milliseconds
 Script Module: Mirror.Components.dll
 [NetworkAnimator] NetworkBehaviourProcessor
 [NetworkRoomPlayer] NetworkBehaviourProcessor
@@ -132,24 +132,18 @@ Script Module: Mirror.Components.dll
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformChild] NetworkBehaviourProcessor
-Weave behaviours and messages took28 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0079789
-Find all reader and writers took 69 milliseconds
+Weave behaviours and messages took23 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0069535
+Find all reader and writers took 55 milliseconds
 Script Module: Mirror.Tests.Common.dll
-Weave behaviours and messages took2 milliseconds
+Weave behaviours and messages took1 milliseconds
 Find all reader and writers took 79 milliseconds
 Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took62 milliseconds
-Find all reader and writers took 57 milliseconds
+Weave behaviours and messages took60 milliseconds
+Find all reader and writers took 56 milliseconds
 Script Module: Unity.ProBuilder.Poly2Tri.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 71 milliseconds
-Script Module: Unity.Postprocessing.Runtime.dll
-Weave behaviours and messages took21 milliseconds
-Find all reader and writers took 66 milliseconds
-Script Module: Mirror.Tests.Runtime.dll
-Weave behaviours and messages took7 milliseconds
-Find all reader and writers took 72 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 65 milliseconds
 Script Module: Assembly-CSharp.dll
 [NetworkRoomPlayer] NetworkBehaviourProcessor
 [NetworkRoomPlayerExt] NetworkBehaviourProcessor
@@ -157,46 +151,52 @@ Script Module: Assembly-CSharp.dll
 [PlayerScore] NetworkBehaviourProcessor
 [RandomColor] NetworkBehaviourProcessor
 [Reward] NetworkBehaviourProcessor
-Weave behaviours and messages took5 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00
-Find all reader and writers took 62 milliseconds
+Weave behaviours and messages took7 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0009972
+Find all reader and writers took 61 milliseconds
+Script Module: Unity.Postprocessing.Runtime.dll
+Weave behaviours and messages took20 milliseconds
+Find all reader and writers took 58 milliseconds
+Script Module: Mirror.Tests.Runtime.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 55 milliseconds
 Script Module: Telepathy.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 68 milliseconds
-Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took5 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
-Find all reader and writers took 65 milliseconds
-Script Module: Unity.ProBuilder.Csg.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 63 milliseconds
+Find all reader and writers took 60 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took3 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0010228
+Find all reader and writers took 56 milliseconds
+Script Module: Unity.ProBuilder.Csg.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 57 milliseconds
 Script Module: kcp2k.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 64 milliseconds
+Find all reader and writers took 60 milliseconds
 Script Module: Mirror.Cloud.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 61 milliseconds
+Find all reader and writers took 57 milliseconds
 Script Module: Unity.ProBuilder.KdTree.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 64 milliseconds
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 58 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 63 milliseconds
+Find all reader and writers took 59 milliseconds
 Script Module: FMODUnityResonance.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 60 milliseconds
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 57 milliseconds
 Script Module: Mirror.Tests.Performance.Runtime.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 89 milliseconds
+Find all reader and writers took 82 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took33 milliseconds
-Find all reader and writers took 78 milliseconds
+Weave behaviours and messages took31 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took9 milliseconds
-Find all reader and writers took 88 milliseconds
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 85 milliseconds
 Script Module: com.unity.cinemachine.editor.dll
-Weave behaviours and messages took29 milliseconds
-Find all reader and writers took 88 milliseconds
+Weave behaviours and messages took31 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Mirror.Tests.dll
 [EmptyBehaviour] NetworkBehaviourProcessor
 [SyncVarGameObjectEqualExposedBehaviour] NetworkBehaviourProcessor
@@ -295,26 +295,26 @@ Script Module: Mirror.Tests.dll
 [VirtualTargetRpc] NetworkBehaviourProcessor
 [VirtualOverrideTargetRpcWithBase] NetworkBehaviourProcessor
 [TargetRpcBehaviour] NetworkBehaviourProcessor
-Weave behaviours and messages took97 milliseconds
-  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0049865
-Find all reader and writers took 76 milliseconds
+Weave behaviours and messages took73 milliseconds
+  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0039910
+Find all reader and writers took 79 milliseconds
 Script Module: FMODUnityEditor.dll
-Weave behaviours and messages took16 milliseconds
-Find all reader and writers took 70 milliseconds
+Weave behaviours and messages took19 milliseconds
+Find all reader and writers took 62 milliseconds
 Script Module: WeaverTestExtraAssembly.dll
-Weave behaviours and messages took4 milliseconds
+Weave behaviours and messages took1 milliseconds
   ProcessSitesModule WeaverTestExtraAssembly.dll elapsed time:00:00:00
-Find all reader and writers took 84 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 69 milliseconds
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 62 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 85 milliseconds
+Find all reader and writers took 78 milliseconds
 Script Module: FMODUnityResonanceEditor.dll
 Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  7.454 seconds
+- Completed reload, in  6.790 seconds
 Platform modules already initialized, skipping
 Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -334,22 +334,110 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 55.6 MB.
-System memory in use after: 55.9 MB.
+System memory in use after: 55.8 MB.
 
 Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 2.945100 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.389200 ms  DeleteObjects: 0.216400 ms)
+Total: 2.829900 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.280100 ms  DeleteObjects: 0.186600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Music Scripts/SongTriggerScript.cs
-  artifactKey: Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Music Scripts/SongTriggerScript.cs using Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00489fd2890a44d27406f3e95b02a0f9') in 0.054235 seconds
-  Import took 0.061011 seconds .
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e291448baf71c9d4785f27276a0bbce') in 0.070062 seconds
+  Import took 0.072820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.891479 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e291448baf71c9d4785f27276a0bbce') in 0.022108 seconds
+  Import took 0.024926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 515.032240 seconds.
+  path: Assets/Mirror
+  artifactKey: Guid(5cf8eb36be0834b3da408c694a41cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror using Guid(5cf8eb36be0834b3da408c694a41cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3ab84938c566c6d4b33aadeb5bf132') in 0.020306 seconds
+  Import took 0.050796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.787098 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(81a59ec4a521083459e9c1727ed5e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(81a59ec4a521083459e9c1727ed5e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb2bb25211d44f7d3463a17b54d2198') in 0.020365 seconds
+  Import took 0.023414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.777437 seconds.
+  path: Assets/Scenes/Julian.unity
+  artifactKey: Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Julian.unity using Guid(6f07809cdc019c74c947760836b235b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c7b7f52deff1c0344e19dc4f218fd') in 0.031457 seconds
+  Import took 0.034755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.356170 seconds.
+  path: Assets/Scenes/Ekemini.unity
+  artifactKey: Guid(d03c574d0970f44499776b65978fd6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ekemini.unity using Guid(d03c574d0970f44499776b65978fd6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486c271bacb33267ab44bfe0d5b209f') in 0.033484 seconds
+  Import took 0.043809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.907839 seconds.
+  path: Assets/Scenes/Arash.unity
+  artifactKey: Guid(e5d6abfef9002ae4b9bd2b115f1e618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arash.unity using Guid(e5d6abfef9002ae4b9bd2b115f1e618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a511ac2f17f1bb0d1f42b94ed73b947') in 0.032777 seconds
+  Import took 0.035814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.275856 seconds.
+  path: Assets/Scenes/Shanice.unity
+  artifactKey: Guid(2925a24e2411f1b40ac639bab2990e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shanice.unity using Guid(2925a24e2411f1b40ac639bab2990e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538566cfd9bf585a38bcd218696d60fa') in 0.020624 seconds
+  Import took 0.023252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570707 seconds.
+  path: Assets/Scenes/Odalys.unity
+  artifactKey: Guid(68ecc7a2789c99a48866f59b41680e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Odalys.unity using Guid(68ecc7a2789c99a48866f59b41680e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d9dc05f28f1a31f5681197a8260e27') in 0.030287 seconds
+  Import took 0.053193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.098535 seconds.
+  path: Assets/Scenes/Bryan.unity
+  artifactKey: Guid(e33c19092bc144358a7a78de0bd9780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bryan.unity using Guid(e33c19092bc144358a7a78de0bd9780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b2760c5930150f613bf714a332e3ac') in 0.020251 seconds
+  Import took 0.022838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.983854 seconds.
+  path: Assets/Scripts/Music Scripts
+  artifactKey: Guid(ca43a6b31dd4a460d8181f0afdc03a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts using Guid(ca43a6b31dd4a460d8181f0afdc03a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6730a95f272a6f3083fe29a39f0c7448') in 0.021097 seconds
+  Import took 0.023833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.530561 seconds.
+  path: Assets/Scripts/Music Scripts/ParamCube.cs
+  artifactKey: Guid(7dd1bc18e3ba44751b1ae8f2e36e5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/ParamCube.cs using Guid(7dd1bc18e3ba44751b1ae8f2e36e5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1e97c46cc599cfbb3c62f80f92f528') in 0.022929 seconds
+  Import took 0.025933 seconds .
 
 ========================================================================
 Received Prepare
@@ -362,11 +450,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005590 seconds.
+Registered in 0.005698 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -383,16 +471,16 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 72.8 MB.
 System memory in use after: 72.9 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 2.451800 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.214600 ms  DeleteObjects: 0.025500 ms)
+Total: 2.075300 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 1.756500 ms  DeleteObjects: 0.027600 ms)
 
 ========================================================================
 Received Prepare
@@ -405,7 +493,7 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005691 seconds.
+Registered in 0.005699 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -426,16 +514,32 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
+- Completed reload, in  0.732 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.8 MB.
+System memory in use before: 72.9 MB.
 System memory in use after: 73.0 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 1.778000 ms (FindLiveObjects: 0.138900 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.566900 ms  DeleteObjects: 0.021600 ms)
+Total: 2.799000 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.059000 ms MarkObjects: 2.542000 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.126367 seconds.
+  path: Assets/Scripts/Music Scripts/FMODSpectrumData.cs
+  artifactKey: Guid(7af654b8311a54dfd8df3b4544099843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/FMODSpectrumData.cs using Guid(7af654b8311a54dfd8df3b4544099843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8e49c9db1875323a4c5963263289a4') in 0.022609 seconds
+  Import took 0.025809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001287 seconds.
+  path: Assets/Scripts/Music Scripts/FMODSpectrumData.cs
+  artifactKey: Guid(7af654b8311a54dfd8df3b4544099843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/FMODSpectrumData.cs using Guid(7af654b8311a54dfd8df3b4544099843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8e49c9db1875323a4c5963263289a4') in 0.019162 seconds
+  Import took 0.021760 seconds .
 
 ========================================================================
 Received Prepare
@@ -448,11 +552,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005563 seconds.
+Registered in 0.005807 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -469,7 +573,7 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.789 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -478,7 +582,23 @@ System memory in use before: 72.9 MB.
 System memory in use after: 73.0 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 1.898000 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.053700 ms MarkObjects: 1.669000 ms  DeleteObjects: 0.024100 ms)
+Total: 1.856600 ms (FindLiveObjects: 0.165600 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.607600 ms  DeleteObjects: 0.024100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.354046 seconds.
+  path: Assets/Scripts/Music Scripts/FMODAudioVisualizer.cs
+  artifactKey: Guid(b50b87f3149e44115a36c391a513a748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/FMODAudioVisualizer.cs using Guid(b50b87f3149e44115a36c391a513a748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f67cad5006dbcb9576c4d950cca7f2') in 0.021153 seconds
+  Import took 0.043529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1108.662030 seconds.
+  path: Assets/Scripts/Music Scripts/SongTriggerScript.cs
+  artifactKey: Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/SongTriggerScript.cs using Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaa2b2d45c604cd3fc12d7ddb4c6af3') in 0.044896 seconds
+  Import took 0.048157 seconds .
 
 ========================================================================
 Received Prepare
@@ -491,7 +611,136 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005635 seconds.
+Registered in 0.005648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2594.
+Total: 2.590000 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.169900 ms  DeleteObjects: 0.043800 ms)
+
+========================================================================
+Received Prepare
+Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.005854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2597.
+Total: 2.289700 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.074200 ms MarkObjects: 1.797400 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.006771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 1.980800 ms (FindLiveObjects: 0.156400 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.737000 ms  DeleteObjects: 0.030600 ms)
+
+========================================================================
+Received Prepare
+Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.005943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -512,7 +761,7 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.883 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -520,8 +769,8 @@ Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 72.9 MB.
 System memory in use after: 73.0 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2594.
-Total: 2.127900 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.836600 ms  DeleteObjects: 0.026400 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 1.855200 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.565800 ms  DeleteObjects: 0.025000 ms)
 
 ========================================================================
 Received Prepare
@@ -534,11 +783,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005754 seconds.
+Registered in 0.005989 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -555,16 +804,16 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  0.828 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.8 MB.
-System memory in use after: 72.9 MB.
+System memory in use before: 72.9 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2597.
-Total: 2.033200 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.800700 ms  DeleteObjects: 0.022400 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 3.882500 ms (FindLiveObjects: 0.467600 ms CreateObjectMapping: 0.202600 ms MarkObjects: 3.156300 ms  DeleteObjects: 0.054200 ms)
 
 ========================================================================
 Received Prepare
@@ -577,11 +826,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005677 seconds.
+Registered in 0.007242 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -598,16 +847,16 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
+- Completed reload, in  0.768 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2600.
-Total: 1.725500 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.502000 ms  DeleteObjects: 0.025300 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 2.176200 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.103100 ms MarkObjects: 1.713200 ms  DeleteObjects: 0.028600 ms)
 
 ========================================================================
 Received Prepare
@@ -620,7 +869,7 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005980 seconds.
+Registered in 0.005812 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -641,145 +890,16 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2603.
-Total: 2.357700 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.127400 ms MarkObjects: 1.853600 ms  DeleteObjects: 0.034300 ms)
-
-========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  0.725 seconds
+- Completed reload, in  0.867 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2606.
-Total: 1.839900 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.617700 ms  DeleteObjects: 0.022300 ms)
-
-========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005857 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2609.
-Total: 1.930000 ms (FindLiveObjects: 0.169300 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.676800 ms  DeleteObjects: 0.024200 ms)
-
-========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005576 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.8 MB.
 System memory in use after: 73.0 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2612.
-Total: 1.873000 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.622800 ms  DeleteObjects: 0.026400 ms)
+Total: 3.004100 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.125300 ms MarkObjects: 2.542500 ms  DeleteObjects: 0.035100 ms)
 
 ========================================================================
 Received Prepare
@@ -792,11 +912,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005643 seconds.
+Registered in 0.006223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -813,16 +933,16 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
+- Completed reload, in  0.804 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
+System memory in use before: 73.0 MB.
 System memory in use after: 73.1 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2615.
-Total: 2.234100 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.988000 ms  DeleteObjects: 0.029800 ms)
+Total: 2.075900 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.823000 ms  DeleteObjects: 0.029700 ms)
 
 ========================================================================
 Received Prepare
@@ -835,11 +955,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005847 seconds.
+Registered in 0.005940 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -856,16 +976,24 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
+- Completed reload, in  0.746 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
+System memory in use before: 73.0 MB.
 System memory in use after: 73.1 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2618.
-Total: 1.875100 ms (FindLiveObjects: 0.164900 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.621300 ms  DeleteObjects: 0.022200 ms)
+Total: 2.111400 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.111200 ms MarkObjects: 1.668400 ms  DeleteObjects: 0.030800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1569.617967 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafbf904077a6db714543d16c86a7c98') in 0.048996 seconds
+  Import took 0.079555 seconds .
 
 ========================================================================
 Received Prepare
@@ -878,11 +1006,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005535 seconds.
+Registered in 0.005660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -899,16 +1027,24 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.719 seconds
+- Completed reload, in  0.756 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
+System memory in use before: 73.0 MB.
 System memory in use after: 73.1 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2621.
-Total: 2.208700 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.091200 ms MarkObjects: 1.830300 ms  DeleteObjects: 0.027800 ms)
+Total: 2.036000 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.733800 ms  DeleteObjects: 0.030800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.799303 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(b2bd5cdfbdc5445c78b64c316d7e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74baeb60a0f2ba4ad22da4771fb428b6') in 0.052484 seconds
+  Import took 0.055609 seconds .
 
 ========================================================================
 Received Prepare
@@ -921,11 +1057,11 @@ Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neo
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.005786 seconds.
+Registered in 0.005936 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -942,117 +1078,63 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.0 MB.
 System memory in use after: 73.1 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2624.
-Total: 2.070500 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.769300 ms  DeleteObjects: 0.024400 ms)
-
-========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005635 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.9 MB.
-System memory in use after: 73.0 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 1.983400 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.697000 ms  DeleteObjects: 0.024600 ms)
+Total: 1.872700 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.586800 ms  DeleteObjects: 0.024200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9283.773584 seconds.
-  path: Assets/Scripts/Music Scripts/FMODSpectrumData.cs
-  artifactKey: Guid(8882a753dc48e7c47993cb63ec14dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Music Scripts/FMODSpectrumData.cs using Guid(8882a753dc48e7c47993cb63ec14dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3d00150e0a4c470d8b5f3560af2df5') in 0.021119 seconds
-  Import took 0.023981 seconds .
+  Time since last request: 3286.301334 seconds.
+  path: Assets/Scripts/Looking.cs
+  artifactKey: Guid(ca2bae138ee45b94c8c9d4d81a8370e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Looking.cs using Guid(ca2bae138ee45b94c8c9d4d81a8370e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefc9c15baf6e16a5cc2d1d722d6689b') in 0.029236 seconds
+  Import took 0.035564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004736 seconds.
-  path: Assets/Scripts/Music Scripts/FMODSpectrumData.cs
-  artifactKey: Guid(8882a753dc48e7c47993cb63ec14dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Music Scripts/FMODSpectrumData.cs using Guid(8882a753dc48e7c47993cb63ec14dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3d00150e0a4c470d8b5f3560af2df5') in 0.019024 seconds
-  Import took 0.021501 seconds .
+  Time since last request: 14.474605 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(006313e3595a80b41ab08ee21a7b920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(006313e3595a80b41ab08ee21a7b920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ccb26412efe9e230ec40f52bc0202a') in 0.021514 seconds
+  Import took 0.024621 seconds .
 
 ========================================================================
-Received Prepare
-Assets/Scenes/environment pack/signage/uploads_files_2930811_music+neon+sign/music neon sign/music neon sign.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+Received Import Request.
+  Time since last request: 0.002285 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(006313e3595a80b41ab08ee21a7b920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(006313e3595a80b41ab08ee21a7b920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ccb26412efe9e230ec40f52bc0202a') in 0.019515 seconds
+  Import took 0.021969 seconds .
 
-Please note that FBX files exported from Cinema4D are still supported.
+========================================================================
+Received Import Request.
+  Time since last request: 1229.469975 seconds.
+  path: Assets/Gizmos/FMOD
+  artifactKey: Guid(881adeaf3940d1446a394704635ef1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/FMOD using Guid(881adeaf3940d1446a394704635ef1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6f7524c0ee5e57e07d25dcc18f45a5') in 0.020539 seconds
+  Import took 0.023641 seconds .
 
-Assets/Scenes/environment pack/signage/uploads_files_875521_Jonni's+Animated+Neon+Sign+Pack+Volume.1/Animated Neon Sign Pack Volume.1/Neon Signs/Neon Signs.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+========================================================================
+Received Import Request.
+  Time since last request: 375.578140 seconds.
+  path: Assets/Scripts/Music Scripts/SongTriggerScript.cs
+  artifactKey: Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/SongTriggerScript.cs using Guid(e34c3de2aaa8fd24c90f782ef5f69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0565a9bc91e036409bc48b1b6f977622') in 0.019289 seconds
+  Import took 0.022355 seconds .
 
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005626 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  0.723 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 902 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.0 MB.
-System memory in use after: 73.1 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2630.
-Total: 1.818300 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.600700 ms  DeleteObjects: 0.021300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 88.699360 seconds.
+  path: Assets/Scenes/Bryan.unity
+  artifactKey: Guid(e33c19092bc144358a7a78de0bd9780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bryan.unity using Guid(e33c19092bc144358a7a78de0bd9780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a034030d9a39987895b5dc9f9c02dc') in 0.057765 seconds
+  Import took 0.060599 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: 36183fb2488124f6b80063d15ae3ac8f
+guid: 2dab3dda051681d4a9ea3ed67cb9877f
+timeCreated: 1518408468
+licenseType: Store
 PluginImporter:
-  externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 1
   iconMap: {}
   executionOrder: {}
-  defineConstraints: []
   isPreloaded: 0
-  isOverridable: 0
-  isExplicitlyReferenced: 0
-  validateReferences: 1
   platformData:
-  - first:
-      Any: 
-    second:
+    Any:
       enabled: 0
       settings: {}
-  - first:
-      Editor: Editor
-    second:
+    Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  - first:
-      WebGL: WebGL
-    second:
-      enabled: 1
+    WebGL:
+      enabled: 0
       settings: {}
   userData: 
   assetBundleName: 
