@@ -202,6 +202,25 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7368014105511375751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 637542906401011886
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7291128096790218230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +400,25 @@ MonoBehaviour:
   Name: Master.assets
   StudioPath: bank:/Master.assets
   lastModified: 637540263935267677
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4438587908197665638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMODAssets/Build/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637542874023171555
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -920,17 +958,17 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4244453949295228096}
-  - {fileID: 6513589667569129480}
-  - {fileID: -7999707352075504066}
+  - {fileID: 5909378607307793137}
+  - {fileID: -7368014105511375751}
+  - {fileID: 224438232427321549}
   EditorEvents:
-  - {fileID: 4667649496024835075}
+  - {fileID: 5582007888153781114}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7999707352075504066}
+  - {fileID: 224438232427321549}
   StringsBanks:
-  - {fileID: 4244453949295228096}
-  stringsBankWriteTime: 637542874062411662
+  - {fileID: 5909378607307793137}
+  stringsBankWriteTime: 637542906401021903
   cacheVersion: 6
 --- !u!114 &62054149329415174
 MonoBehaviour:
@@ -972,6 +1010,25 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 1
+--- !u!114 &224438232427321549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637542906396952227
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &519910446422959778
 MonoBehaviour:
@@ -1120,6 +1177,27 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 802
+  Exists: 1
+--- !u!114 &1692926500814076171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMODAssets/Build/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637542874062411662
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 850
   Exists: 1
 --- !u!114 &1716686646281372196
 MonoBehaviour:
@@ -1291,6 +1369,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &3383599251231997804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3489097728515667236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,6 +1410,30 @@ MonoBehaviour:
   - Name: 
     Value: 802
   Exists: 1
+--- !u!114 &3497092476094380348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack
+  guid: 194441c4cc9fc54484668b4f6386923d
+  Banks:
+  - {fileID: -4438587908197665638}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3383599251231997804}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3037563
 --- !u!114 &3545697381841220813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1400,6 +1522,25 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 850
+  Exists: 1
+--- !u!114 &4321996370283750377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMODAssets/Build/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 637542874062391707
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &4343823657976846121
 MonoBehaviour:
@@ -1632,6 +1773,51 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5582007888153781114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack
+  guid: 194441c4cc9fc54484668b4f6386923d
+  Banks:
+  - {fileID: 224438232427321549}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8305377170117524735}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3037563
+--- !u!114 &5909378607307793137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637542906401021903
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 850
+  Exists: 1
 --- !u!114 &6025171361502063541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,6 +2034,26 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 850
+  Exists: 1
+--- !u!114 &8305377170117524735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &8793749382056204042
 MonoBehaviour:
