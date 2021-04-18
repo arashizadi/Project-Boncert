@@ -205,7 +205,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: FMOD Assets/Build/Master.assets.bank
-  sourceBankPath: FMOD Assets/Build
+  sourceBankPath: Assets/Plugins/FMOD Assets/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
