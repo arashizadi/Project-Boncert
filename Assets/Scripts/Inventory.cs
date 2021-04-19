@@ -7,14 +7,9 @@ public class Inventory : MonoBehaviour
 {
     public int itemInUse { get; private set; } = 0;  //0 = None | 1 = Phone | 2 = Firework | 3 = Lighter 
 
-    public GameObject[] inventory;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    [SerializeField]
+    GameObject[] inventory;
+    void Start(){}
     void Update()
     {
         Use();
