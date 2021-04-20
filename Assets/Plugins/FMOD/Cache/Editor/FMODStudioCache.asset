@@ -341,7 +341,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637544559180000000
+  lastModified: 637545174462880694
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -998,7 +998,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 1769685557152899184}
-  - {fileID: 7782079608294948535}
   - {fileID: -6621408430108720422}
   EditorEvents:
   - {fileID: 2222102055331303168}
@@ -1007,7 +1006,7 @@ MonoBehaviour:
   - {fileID: -6621408430108720422}
   StringsBanks:
   - {fileID: 1769685557152899184}
-  stringsBankWriteTime: 637544559180000000
+  stringsBankWriteTime: 637545174462900643
   cacheVersion: 6
 --- !u!114 &62054149329415174
 MonoBehaviour:
@@ -1274,7 +1273,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637544559180000000
+  lastModified: 637545174462900643
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -1321,7 +1320,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3370062119031531527}
+  - {fileID: 7661561478780950301}
   MinDistance: 0
   MaxDistance: 0
   Length: 3037563
@@ -1472,7 +1471,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3383599251231997804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2138,6 +2137,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &7661561478780950301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7782079608294948535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2156,7 +2175,7 @@ MonoBehaviour:
   lastModified: 637542874080000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8084743794827714347
 MonoBehaviour:
   m_ObjectHideFlags: 0

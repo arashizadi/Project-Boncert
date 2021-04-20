@@ -17,6 +17,9 @@ public class Movement : MonoBehaviour
     Vector3 GravityVector;
     public float Gravity = -9.81f;
 
+
+    
+
     void Start()
     {
         PlayerController = GetComponent<CharacterController>();
@@ -39,6 +42,22 @@ public class Movement : MonoBehaviour
         PlayerController.Move(PlayerMovement * MovementSpeed * Time.deltaTime);
         //Gravity
         PlayerController.Move(GravityVector * Time.deltaTime);
+
+
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            
+        }
+
+
+
+
+
+
+
+
+
     }
 
 	//Debugs
