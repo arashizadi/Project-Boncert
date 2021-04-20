@@ -47,7 +47,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            
+            this.GetComponent<DroneMovement>().enabled = false;
         }
 
 
