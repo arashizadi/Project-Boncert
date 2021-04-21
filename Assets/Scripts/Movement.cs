@@ -11,14 +11,19 @@ public class Movement : MonoBehaviour
     float PlayerX;
     float PlayerZ;
     //Multipler
-    public float MovementSpeed = 5;
+    [SerializeField]
+    public float MovementSpeed = 5f;
 
     //Gravity
     Vector3 GravityVector;
-    public float Gravity = -9.81f;
+    [SerializeField]
+    private float Gravity = 1f;
 
+    // Jump
+    [SerializeField]
+    private float JumpSpeed = 3.5f;
 
-    
+    private float PlayerDirection_Y;
 
     void Start()
     {
@@ -38,25 +43,26 @@ public class Movement : MonoBehaviour
         //To See Code Works
         Debugging();
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            PlayerDirection_Y = JumpSpeed;
+            
+        }
+
+        PlayerDirection_Y -= Gravity * Time.deltaTime;
+
+        PlayerMovement.y = PlayerDirection_Y;
+
         //Movement
         PlayerController.Move(PlayerMovement * MovementSpeed * Time.deltaTime);
         //Gravity
         PlayerController.Move(GravityVector * Time.deltaTime);
 
-
-
+        
         if (Input.GetKeyUp(KeyCode.Space))
         {
             this.GetComponent<DroneMovement>().enabled = false;
         }
-
-
-
-
-
-
-
-
 
     }
 
