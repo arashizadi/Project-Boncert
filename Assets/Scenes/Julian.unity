@@ -402,6 +402,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4962874068972445620, guid: 8417b56a2ee116f4883edf45e0552349, type: 3}
   m_PrefabInstance: {fileID: 78826046}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &100697033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6530761248042927301, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
+  m_PrefabInstance: {fileID: 206339610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &111073685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -572,7 +577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6530761246591205802, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6530761246591205803, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
       propertyPath: m_RootOrder
@@ -959,6 +964,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &509421663 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 54919497663173822, guid: 8b826a7c5dffaf04d99fa3f39f8d9060, type: 3}
+  m_PrefabInstance: {fileID: 801213450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &514241550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1378,7 +1388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b6705665391454ebc9d5c6421c0ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moving: 1
+  cam: {fileID: 100697033}
+  camstate: 0
 --- !u!1 &1682596343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,13 +2425,14 @@ GameObject:
   - component: {fileID: 182055203572820446}
   - component: {fileID: 182055203572820447}
   - component: {fileID: 182055203572820448}
+  - component: {fileID: 182055203572820449}
   m_Layer: 0
   m_Name: Cube.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &182055203572820445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2440,7 +2452,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182055203572820444}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 006313e3595a80b41ab08ee21a7b920c, type: 3}
   m_Name: 
@@ -2456,7 +2468,7 @@ CharacterController:
   m_GameObject: {fileID: 182055203572820444}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 12.482076
   m_Radius: 2.316085
@@ -2478,6 +2490,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.533268, y: 12.482076, z: 5.2365203}
   m_Center: {x: -0.4505489, y: 0, z: -1.0927166}
+--- !u!114 &182055203572820449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182055203572820444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85f6c4d4ecfa7f4fb4ee81cffb376e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HelicopterSound: {fileID: 0}
+  ControlPanel: {fileID: 0}
+  HelicopterModel: {fileID: 509421663}
+  MainRotorController: {fileID: 0}
+  SubRotorController: {fileID: 0}
+  TurnForce: 3
+  ForwardForce: 10
+  ForwardTiltForce: 20
+  TurnTiltForce: 30
+  EffectiveHeight: 100
+  turnTiltForcePercent: 1.5
+  turnForcePercent: 1.3
+  IsOnGround: 1
 --- !u!1 &184609072957027212
 GameObject:
   m_ObjectHideFlags: 0

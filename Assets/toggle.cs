@@ -1,42 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class toggle : MonoBehaviour
 {
-    public bool moving = true;
+    public GameObject cam;
+    public bool camstate;
 
 
 
     void Start()
     {
-    
+        camstate = true;
     }
    
 
-
-
-
-
-
-
-    void Update()
+     void Update()
     {
 
 
 
-        if (Input.GetKeyUp(KeyCode.F) || moving == true)
+        if (Input.GetKeyUp(KeyCode.H))
         {
-            moving = false;
-            GetComponent<Movement>().enabled = false;
-
+            //moving = false;
+            GetComponent<Movement>().enabled = !GetComponent<Movement>().enabled;
+            camstate = !camstate;
+            
+        }
+        
+        if( camstate== true)
+        {
+            cam.SetActive(true);
         }
 
-        if (Input.GetKeyUp(KeyCode.F) || moving == false)
+        if (camstate == false)
         {
-            GetComponent<Movement>().enabled = true;
+            cam.SetActive(false);
         }
+
+
+
+
     }
 
 
