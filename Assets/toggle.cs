@@ -25,12 +25,13 @@ public class toggle : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.H))
         {
             //moving = false;
-            GetComponent<Movement>().enabled = !GetComponent<Movement>().enabled;
+            //GetComponent<Movement>().enabled = !GetComponent<Movement>().enabled;
+            GetComponent<Movement2>().enabled = !GetComponent<Movement2>().enabled;
             camstate = !camstate;
-            
+
         }
-        
-        if( camstate== true)
+
+        if ( camstate== true)
         {
             cam.SetActive(true);
         }
