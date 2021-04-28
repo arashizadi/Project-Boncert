@@ -10,7 +10,7 @@ public class Shooting : MonoBehaviour
     //public float hitForce = 100f; //amount of force applied when shot
     public Transform gunEnd; // position of the end of the gun
     private Camera Camera; // our camera in the scene
-    private WaitForSeconds shotDuration = new WaitForSeconds(.07f); //to determine how we want the laser visible once shot
+    private WaitForSeconds shotDuration = new WaitForSeconds(1f); //to determine how we want the laser visible once shot
     //private AudioSource audioSource; // sound for the gunshot
     private LineRenderer laserLine; //laser line
     //private float nextFire; //hold the time at which the player will be able to shoot again
@@ -21,7 +21,7 @@ public class Shooting : MonoBehaviour
     {
         //audioSource = GetComponent<AudioSource>();
         laserLine = GetComponent<LineRenderer>();
-        Camera = GetComponentInParent<Camera>();
+        Camera = GetComponentInChildren<Camera>();
         laserLine.enabled = true;
     }
     void Update()
@@ -36,17 +36,18 @@ public class Shooting : MonoBehaviour
             //isFiring = false;
             //nextFire = Time.time + fireRate;
             //audioSource.Play();
-            //StartCoroutine(ShotEffect());
+            StartCoroutine(ShotEffect());
             Vector3 rayOrigin = Camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
             laserLine.SetPosition(0, gunEnd.position);
             if (Physics.Raycast(rayOrigin, Camera.transform.forward, out hit, weaponRange))
             {
                 laserLine.SetPosition(1, hit.point);
+                
                 //ShootableItem health = hit.collider.GetComponent<ShootableItem>();
                 //if (health != null)
                 //{
-                    //health.Damage(gunDamage);
+                //health.Damage(gunDamage);
                 //}
                 if (hit.rigidbody != null)
                 {
@@ -56,13 +57,18 @@ public class Shooting : MonoBehaviour
             else
             {
                 laserLine.SetPosition(1, rayOrigin + (Camera.transform.forward * weaponRange));
+                
             }
+        
+        
+        
+        
         }
     }
-    //private IEnumerator ShotEffect()
-    //{
-        //laserLine.enabled = true;
-        //yield return shotDuration;
-        //laserLine.enabled = false;
-    //}
+    private IEnumerator ShotEffect()
+    {
+        laserLine.enabled = true;
+        yield return shotDuration;
+        laserLine.enabled = false;
+    }
 }
