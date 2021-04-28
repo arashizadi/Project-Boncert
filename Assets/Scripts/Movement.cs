@@ -58,11 +58,16 @@ public class Movement : MonoBehaviour
         //Gravity
         PlayerController.Move(GravityVector * Time.deltaTime);
 
-        
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            this.GetComponent<DroneMovement>().enabled = false;
-        }
+
+
+       
+
+
+
+
+
+
+
 
     }
 

@@ -360,7 +360,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637542934820224620
+  lastModified: 637545174462880694
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -423,6 +423,26 @@ MonoBehaviour:
     data2: 0
   Exists: 1
 --- !u!114 &-5299187886942640701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4659440309622672995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1095,7 +1115,6 @@ MonoBehaviour:
 <<<<<<< Updated upstream
   - {fileID: 1769685557152899184}
   - {fileID: -6621408430108720422}
-  - {fileID: -1171559777503304897}
   EditorEvents:
   - {fileID: 2222102055331303168}
   EditorParameters: []
@@ -1103,6 +1122,7 @@ MonoBehaviour:
   - {fileID: -6621408430108720422}
   StringsBanks:
   - {fileID: 1769685557152899184}
+<<<<<<< HEAD
   stringsBankWriteTime: 637542934820224620
 =======
   - {fileID: -1969984528075492499}
@@ -1117,6 +1137,9 @@ MonoBehaviour:
   - {fileID: -1969984528075492499}
   stringsBankWriteTime: 637542906401021903
 >>>>>>> Stashed changes
+=======
+  stringsBankWriteTime: 637545174462900643
+>>>>>>> main
   cacheVersion: 6
 --- !u!114 &62054149329415174
 MonoBehaviour:
@@ -1407,7 +1430,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637542934820224620
+  lastModified: 637545174462900643
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -1454,7 +1477,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -87710203227788865}
+  - {fileID: -4659440309622672995}
   MinDistance: 0
   MaxDistance: 0
   Length: 3037563
