@@ -57,6 +57,7 @@ public class Movement2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerDirection_Y = JumpSpeed;
+            Animator.SetTrigger("Jump");
         }
 
         // Add gravity to Y-axis movement
