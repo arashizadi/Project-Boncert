@@ -2388,30 +2388,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6530761246591205780, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: Gravity
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761246591205780, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: JumpSpeed
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761246591205780, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761246591205781, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_Height
-      value: 1.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761246591205781, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_Center.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761246591205781, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_SkinWidth
-      value: 0.0001
-      objectReference: {fileID: 0}
     - target: {fileID: 6530761246591205802, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2460,18 +2436,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6530761247890614632, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530761247890614635, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8778189098515692125, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 9c9cad8c03d014b06a75ee3c875032d7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402dfa98773ff420684bcd3b50fe99d1, type: 3}
 --- !u!1 &1125074040
