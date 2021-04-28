@@ -6,13 +6,19 @@ using UnityEngine;
 
 public class toggle : MonoBehaviour
 {
+    public GameObject drone;
     public GameObject cam;
+    //public GameObject cube;
     public bool camstate;
-
+     
 
 
     void Start()
     {
+
+        ///Movement2 moving = GetComponent < blahblahblah
+
+        
         camstate = true;
     }
    
@@ -25,21 +31,19 @@ public class toggle : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.H))
         {
             //moving = false;
-            //GetComponent<Movement>().enabled = !GetComponent<Movement>().enabled;
-            GetComponent<Movement2>().enabled = !GetComponent<Movement2>().enabled;
+            GetComponent<Movement>().enabled = !GetComponent<Movement>().enabled;
+            //GetComponent<Movement2>().enabled = !GetComponent<Movement2>().enabled;
             camstate = !camstate;
+            //GetComponent<flight>().enabled = !GetComponent<flight>().enabled;
+            drone.SetActive(!camstate);
+            cam.SetActive(camstate);
+            //Transform.GetChild<Cube>().enabled= !GetComponentInChildren<Cube>().enabled;
+            //this.gameObject.transform.GetChild(2).enabled = !this.gameObject.transform.GetChild(2).enabled;
+
 
         }
 
-        if ( camstate== true)
-        {
-            cam.SetActive(true);
-        }
-
-        if (camstate == false)
-        {
-            cam.SetActive(false);
-        }
+      
 
 
 
