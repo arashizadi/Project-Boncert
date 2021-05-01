@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class Movement : MonoBehaviour
+public class Movement : NetworkBehaviour
 {
 	CharacterController PlayerController;
     Animator Animator;
+    NetworkAnimator networkAnimator;
 
     // Movement
     Vector3 PlayerMovement;
@@ -29,13 +31,16 @@ public class Movement : MonoBehaviour
     {
         PlayerController = GetComponent<CharacterController>();
         Animator = GetComponentInChildren<Animator>();
+        networkAnimator = GetComponent<NetworkAnimator>();
     }
 
     void Update()
     {
+        // multiplayer: stops everyone from controlling everyone
+        if (!hasAuthority) return;
+
         Move();
         Dance();
-
         //Debugging();
 
     }
@@ -54,7 +59,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerDirection_Y = JumpSpeed;
-            Animator.SetTrigger("Jump");    // Jump + fist pump animation
+            networkAnimator.SetTrigger("Jump");    // Jump + fist pump animation
         }
 
         // Add gravity to Y-axis movement
@@ -71,15 +76,15 @@ public class Movement : MonoBehaviour
         // Press 1, 2 or 3 to dance
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Animator.SetTrigger("Dance1");
+            networkAnimator.SetTrigger("Dance1");
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Animator.SetTrigger("Dance2");
+            networkAnimator.SetTrigger("Dance2");
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Animator.SetTrigger("Dance3");
+            networkAnimator.SetTrigger("Dance3");
         }
     }
 

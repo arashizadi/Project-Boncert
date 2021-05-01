@@ -142,6 +142,9 @@ GameObject:
   - component: {fileID: 252722844235088724}
   - component: {fileID: 252722844235088715}
   - component: {fileID: 252722844235088714}
+  - component: {fileID: 1624277898972896333}
+  - component: {fileID: 3249292232353236792}
+  - component: {fileID: 4534227517303723374}
   m_Layer: 0
   m_Name: Avatar3
   m_TagString: Untagged
@@ -177,6 +180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006313e3595a80b41ab08ee21a7b920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   MovementSpeed: 5
   Gravity: 7
   JumpSpeed: 1.4
@@ -198,6 +203,57 @@ CharacterController:
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.92, z: 0}
+--- !u!114 &1624277898972896333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252722844235088713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
+--- !u!114 &3249292232353236792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252722844235088713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  localPositionSensitivity: 0.01
+  localRotationSensitivity: 0.01
+  localScaleSensitivity: 0.01
+--- !u!114 &4534227517303723374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252722844235088713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  animator: {fileID: 5974957015682365408}
 --- !u!1001 &252722843076856433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266,5 +322,10 @@ PrefabInstance:
 --- !u!4 &291435913291263386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a33d2ca6c5b6c43eb918f3a2dbc0bc29, type: 3}
+  m_PrefabInstance: {fileID: 252722843076856433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5974957015682365408 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: a33d2ca6c5b6c43eb918f3a2dbc0bc29, type: 3}
   m_PrefabInstance: {fileID: 252722843076856433}
   m_PrefabAsset: {fileID: 0}
