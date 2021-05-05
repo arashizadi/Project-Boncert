@@ -24,8 +24,8 @@ public class Movement : NetworkBehaviour
     // Jump
     [SerializeField]
     private float JumpSpeed = 1.4f;
-
     private float PlayerDirection_Y;
+
 
     void Start()
     {
