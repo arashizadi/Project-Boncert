@@ -48,9 +48,20 @@ public class LookingMain : MonoBehaviour
         //transform.eulerAngles = new Vector3(transform.eulerAngles.x, target.transform.eulerAngles.y, transform.eulerAngles.z);
 
         // smoother, "elastic" follow:
-        transform.position = Vector3.Slerp(transform.position, target.TransformPoint(cameraOffset), 0.1f);
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, Quaternion.LookRotation(target.position - transform.position).eulerAngles.y, transform.eulerAngles.z);
-        
+        //transform.position = Vector3.Slerp(transform.position, target.TransformPoint(cameraOffset), 0.1f);
+        //transform.eulerAngles = new Vector3(transform.eulerAngles.x, Quaternion.LookRotation(target.position - transform.position).eulerAngles.y, transform.eulerAngles.z);
+
+
+        // lol sike the drone gets all glitchy with the elastic follow so here's a fallback
+        if (cameraOffset == Vector3.zero)
+        {
+            transform.position = target.TransformPoint(cameraOffset);
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, target.transform.eulerAngles.y, transform.eulerAngles.z);
+        } else {
+            transform.position = Vector3.Slerp(transform.position, target.TransformPoint(cameraOffset), 0.1f);
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, Quaternion.LookRotation(target.position - transform.position).eulerAngles.y, transform.eulerAngles.z);
+        }
+
     }
 
     public void Follow(Transform _target, Vector3 _cameraOffset)

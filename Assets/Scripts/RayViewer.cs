@@ -5,11 +5,11 @@ using UnityEngine;
 public class RayViewer : MonoBehaviour
 {
     public float weaponRange = 50f;
-    public Camera Camera;
+    Camera Camera;
 
      void Start()
     {
-        Camera = GetComponentInChildren<Camera>();
+        Camera = Camera.main;
     }
 
     void Update()

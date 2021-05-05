@@ -21,7 +21,7 @@ public class Shooting : MonoBehaviour
     {
         //audioSource = GetComponent<AudioSource>();
         laserLine = GetComponent<LineRenderer>();
-        Camera = GetComponentInChildren<Camera>();
+        Camera = Camera.main;
         laserLine.enabled = true;
     }
     void Update()
