@@ -16,32 +16,33 @@ public class toggle : NetworkBehaviour
     Movement movementScript;
 
 
-    // main camera starts off displaying the cityscape. (looking script is off)
-    // once the player spawns in, tell the camera to follow the player + listen to input
-    public override void OnStartLocalPlayer()
-    {
-        lookingScript = Camera.main.GetComponent<LookingMain>();
-        lookingScript.enabled = true;
-
-        lookingScript.Follow(transform, new Vector3(0f, 2.23f, -4f));
-    }
-
     void Start()
     {
-        // get this once + cache it instead of getting the component 60x per second (performance!)
-        movementScript = GetComponent<Movement>();
-
+        // TEMP:
         // since the player has to be spawned in, we can't drag the drone gameobject into the inspector slot - rip
         // for testing purposes i'm just gonna Find() a drone already chilling in the scene (but this is really bad and ik julian wanted to spawn a drone for each player anyway)
         drone = GameObject.Find("Drone");
 
+        // get these once + cache them instead of getting them 60x per second (performance!)
+        movementScript = GetComponent<Movement>();
+        lookingScript = Camera.main.GetComponent<LookingMain>();
+        
         shootingScript = drone.GetComponent<Shooting>();
         flightScript = drone.GetComponent<flight>();
         rayViewerScript = drone.GetComponent<RayViewer>();
+
+
+        // tell main camera to follow the player + listen to input
+        lookingScript.enabled = true;
+        lookingScript.Follow(transform, new Vector3(0f, 2.23f, -4f));   // offset
+
     }
 
     void Update()
     {
+        // multiplayer: stops everyone from controlling everyone
+        if (!hasAuthority) return;
+
         if (Input.GetKeyUp(KeyCode.H))
         {
             // disable player movement

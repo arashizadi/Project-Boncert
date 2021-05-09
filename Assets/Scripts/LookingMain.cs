@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LookingMain : MonoBehaviour
 {
-    Vector2 currentMouseLook;
+    Vector2 currentMouseLook = new Vector2(-110f, 0f);
     Vector2 appliedMouseDelta;
     float sensitivity = 1.5f;
     float smoothing = 4f;
