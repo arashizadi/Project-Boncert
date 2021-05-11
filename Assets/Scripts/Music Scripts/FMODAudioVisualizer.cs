@@ -12,6 +12,7 @@ public class FMODAudioVisualizer : MonoBehaviour
     [Header("FMOD Event")]
     [EventRef] [SerializeField] private string eventPath = null;
     [SerializeField] private bool playOnAwake = true;
+    [SerializeField] private bool flipHorizontally = false;
     [Header("Audio Sample Data Settings")]
     [SerializeField] private int windowSize = 512;
     [SerializeField] private DSP_FFT_WINDOW windowShape = DSP_FFT_WINDOW.RECT;
@@ -107,8 +108,14 @@ public class FMODAudioVisualizer : MonoBehaviour
         bandMeters = new GameObject[freqRanges.Count];
         for(int i = 0; i < freqRanges.Count; i++)
         {
-            bandMeters[i] = Instantiate(MeterObject, transform.position, transform.rotation);
-            bandMeters[i].transform.position = new Vector3(transform.position.x + posOffSet + spaceOffset, transform.position.y, transform.position.z);
+            bandMeters[i] = Instantiate(MeterObject, transform.position, transform.rotation, this.transform);
+            //bandMeters[i].transform.position = new Vector3(transform.position.x + posOffSet + spaceOffset, transform.position.y, transform.position.z);
+
+            if (flipHorizontally)
+                bandMeters[i].transform.Translate(-Mathf.Pow(spaceOffset, 1f + i/100f), 0f, 0f);    // spaces increase exponentially
+            else
+                bandMeters[i].transform.Translate(Mathf.Pow(spaceOffset, 1f + i/100f), 0f, 0f);
+
 
             if(bandMeters[i].GetComponent<ParamCube>() != null)
             {

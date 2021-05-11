@@ -9,13 +9,11 @@ public class ParamCube : MonoBehaviour
     [SerializeField] private float _scaleMultipler = 10f;
 
     private float startPos;
-    private float previousPos;
     
     // Start is called before the first frame update
     void Start()
     {
         startPos = transform.position.y;
-        previousPos = transform.position.y;
     }
 
     // Update is called once per frame

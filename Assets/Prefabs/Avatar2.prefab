@@ -194,10 +194,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: readyplayerme2
       objectReference: {fileID: 0}
+    - target: {fileID: 3501836223160941379, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501836223160941379, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501836223160941379, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 157a98af24a314a0ebb1f5a12a120582, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
+      propertyPath: m_CullingMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 4b7403cafd8944706a2c1d40acd659f6, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0

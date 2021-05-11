@@ -10,8 +10,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: HoverCars_ilum red
+    second: {fileID: 2100000, guid: f407f1b0e9b004beea724d3b24a34755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Publicity_lights
     second: {fileID: 2100000, guid: 810d1ff8f71d54049a5a5c64d8682009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_green
+    second: {fileID: 2100000, guid: c58c89c133ee64bedbc3f816c902d68d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_orange
+    second: {fileID: 2100000, guid: bc9a3aaa8180f49d3bb4aed0091f6ccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_red
+    second: {fileID: 2100000, guid: ab35b618d4dbf45848affeec0382a43a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
