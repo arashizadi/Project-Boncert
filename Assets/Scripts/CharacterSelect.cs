@@ -17,25 +17,8 @@ public class CharacterSelect : NetworkBehaviour
     float turnSpeed = 32f;
 
 
-    //void Start()
-    //{
-    //    if (characterInstances.Count == 0)     // making sure the characters are only instantiated once
-    //    {
-    //        foreach (var character in characters)
-    //        {
-    //            GameObject characterInstance = Instantiate(character.CharacterPreviewPrefab, characterPreviewParent);
-    //            characterInstance.SetActive(false);
-    //            characterInstances.Add(characterInstance);
-    //        }
-    //    }
-
-    //    // only display the character that's currently selected
-    //    characterInstances[currentCharacterIndex].SetActive(true);
-
-    //    // reveal the UI!
-    //    characterSelectDisplay.SetActive(true);
-    //}
-
+    [SerializeField] GameObject dronePrefab;
+    [SerializeField] Transform[] zones;
 
 
     public override void OnStartClient()
@@ -76,13 +59,17 @@ public class CharacterSelect : NetworkBehaviour
     [Command(requiresAuthority = false)]
     public void CmdSelect(int characterIndex, NetworkConnectionToClient conn = null)
     {
+        // spawn the character we selected and set it as our player.
+        // (up until this point, the client was represented by a blank gameobject with a networkidentity)
         GameObject placeholder = conn.identity.gameObject;
         GameObject newPlayer = Instantiate(characters[characterIndex].GameplayCharacterPrefab, placeholder.transform.position, Quaternion.identity);
         NetworkServer.ReplacePlayerForConnection(conn, newPlayer);
         NetworkServer.Destroy(placeholder);
 
-        //GameObject characterInstance = Instantiate(characters[characterIndex].GameplayCharacterPrefab);
-        //NetworkServer.Spawn(characterInstance, conn);
+        // spawn 1 drone per player too! (client gets authority over this object, but it is not the ~player object~ fyi)
+        GameObject newDrone = Instantiate(dronePrefab, zones[Random.Range(0, zones.Length)].position + new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), Random.Range(-5f, 5f)), Quaternion.identity);
+        NetworkServer.Spawn(newDrone, conn);
+        newPlayer.GetComponent<toggle>().drone = newDrone;  // toggle script needs this ref in order to take control
 
     }
 

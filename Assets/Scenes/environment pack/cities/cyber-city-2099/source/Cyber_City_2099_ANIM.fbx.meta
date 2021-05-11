@@ -10,6 +10,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Publicity_lights
+    second: {fileID: 2100000, guid: 810d1ff8f71d54049a5a5c64d8682009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Windows_ilum
     second: {fileID: 2100000, guid: 94dd2c95d251c4be785961d45d299c45, type: 2}
   materials:

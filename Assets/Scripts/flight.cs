@@ -4,7 +4,7 @@ public class flight : MonoBehaviour
 {
     public float speed = 5;
     Vector2 velocity;
-    public Rigidbody drone;
+    //public Rigidbody drone;
 
 
     void Update()
