@@ -179,6 +179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51d0671d8af2f745834d094c40ee003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   weaponRange: 50
   gunEnd: {fileID: 6926356267544129027}
 --- !u!114 &6926356267296901829
@@ -193,6 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f755bb8fde249478c805599cd6fb2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   speed: 15
 --- !u!114 &6926356267296901830
 MonoBehaviour:
