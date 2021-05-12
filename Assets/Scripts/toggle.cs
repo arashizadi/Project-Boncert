@@ -12,25 +12,21 @@ public class toggle : NetworkBehaviour
 
     public bool droneActivated = false;
 
-    LookingMain lookingScript;
+    LookingMain cameraInputScript;
     Movement movementScript;
 
 
-    void Start()
+    // moved my Start() stuff into here to stop other clients from running it.
+    // note: Start() runs before network stuff is done initializing, so i can't use hasAuthority in there.
+    public override void OnStartAuthority()
     {
         // get these once + cache them instead of getting them 60x per second (performance!)
         movementScript = GetComponent<Movement>();
-        lookingScript = Camera.main.GetComponent<LookingMain>();
-        
-        shootingScript = drone.GetComponent<Shooting>();
-        flightScript = drone.GetComponent<flight>();
-        rayViewerScript = drone.GetComponent<RayViewer>();
+        cameraInputScript = Camera.main.GetComponent<LookingMain>();
 
-
-        // tell main camera to follow the player + listen to input
-        lookingScript.enabled = true;
-        lookingScript.Follow(transform, new Vector3(0f, 2.23f, -4f));   // offset
-
+        // tell main camera to start following the player + listening to input
+        cameraInputScript.enabled = true;
+        cameraInputScript.Follow(transform, new Vector3(0f, 2.23f, -4f));   // offset
     }
 
     void Update()
@@ -52,14 +48,23 @@ public class toggle : NetworkBehaviour
             droneActivated = !droneActivated;
             if (droneActivated)
             {
-                lookingScript.Follow(drone.transform, Vector3.zero);  // camera follows drone, no offset
+                cameraInputScript.Follow(drone.transform, Vector3.zero);  // camera follows drone, no offset
             } else
             {
-                lookingScript.Follow(transform, new Vector3(0f, 2.23f, -4f));   // camera follows player, slightly above & behind
+                cameraInputScript.Follow(transform, new Vector3(0f, 2.23f, -4f));   // camera follows player, slightly above & behind
             }
 
         }
 
+    }
+
+    public void AssignDroneToPlayer(GameObject _drone)
+    {
+        drone = _drone;
+
+        shootingScript = drone.GetComponent<Shooting>();
+        flightScript = drone.GetComponent<flight>();
+        rayViewerScript = drone.GetComponent<RayViewer>();
     }
 
 

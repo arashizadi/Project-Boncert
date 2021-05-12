@@ -1,6 +1,7 @@
 using UnityEngine;
+using Mirror;
 
-public class flight : MonoBehaviour
+public class flight : NetworkBehaviour
 {
     public float speed = 5;
     Vector2 velocity;
@@ -9,6 +10,10 @@ public class flight : MonoBehaviour
 
     void Update()
     {
+        // multiplayer: stops everyone from controlling everyone
+        if (!hasAuthority) return;
+
+
         velocity.y = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         velocity.x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         transform.Translate(velocity.x, 0, velocity.y);

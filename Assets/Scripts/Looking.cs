@@ -17,6 +17,8 @@ public class Looking : NetworkBehaviour
 
     void Start()
     {
+        if (!hasAuthority) return;
+
         Cursor.lockState = CursorLockMode.Locked;
     }
 

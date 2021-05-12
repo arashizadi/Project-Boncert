@@ -43,8 +43,9 @@ public class FMODAudioVisualizer : MonoBehaviour
     private int frameCount = 0;
 
     [Header("Song Change")]
-    public float NextPrevSong = 1f;
-    
+    public int NextPrevSong = 0;
+    float[] SongTime = {175f, 345f, 538f, 775f, 1023f, 1318f, 1582f, 1827f, 2233f, 2450f, 2766f};
+
     private void Start()
     {
         //Prepare FMOD event
@@ -60,7 +61,10 @@ public class FMODAudioVisualizer : MonoBehaviour
         freqBands = new float[freqRanges.Count];
         bandBuffer = new float[freqRanges.Count];
         bufferDecrease = new float[freqRanges.Count];
-    }
+
+        
+        NextPrevSong = 0;
+}
 
     private void PrepareFMODeventInstance()
     {
@@ -129,19 +133,32 @@ public class FMODAudioVisualizer : MonoBehaviour
     //The buttons that will change songs
     public void NextSong()
     {
-        NextPrevSong += 1f;
-        if(NextPrevSong > 11f)
+        NextPrevSong += 1;
+        if(NextPrevSong > 11)
         {
-            NextPrevSong = 0f;
+            NextPrevSong = 0;
         }
+        SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
     }
 
     public void PrevSong()
     {
-        NextPrevSong -= 1f;
-        if(NextPrevSong < 0f)
+        NextPrevSong -= 1;
+        if(NextPrevSong < 0)
         {
-            NextPrevSong = 11f;
+            NextPrevSong = 11;
+        }
+        SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
+    }
+
+    //Automatic Song changer, copypasted over from FMODSpectrumData
+    void AutomaticChange()
+    {
+        if(Time.time >= SongTime[NextPrevSong])
+        {
+            NextPrevSong += 1;
+            if (NextPrevSong > 11) { NextPrevSong = 0; }
+            SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
         }
     }
 
@@ -152,7 +169,9 @@ public class FMODAudioVisualizer : MonoBehaviour
         BandBuffer();
         countFPS();
 
-        SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
+        AutomaticChange();
+
+        //SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
     }
 
     private void GetSpectrumData()

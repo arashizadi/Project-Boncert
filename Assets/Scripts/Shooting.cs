@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Shooting : MonoBehaviour
+using Mirror;
+
+public class Shooting : NetworkBehaviour
 {
     //public int gunDamage = 1; //amount of damage when shot
     //public float fireRate = .25f; // rate player can shoot
@@ -26,6 +28,10 @@ public class Shooting : MonoBehaviour
     }
     void Update()
     {
+        // multiplayer: stops everyone from controlling everyone
+        if (!hasAuthority) return;
+
+
         //ammoDisplay.text = ammo.ToString();
         // if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
         // if (Input.GetMouseButtonDown("Fire1") && !isFiring && ammo > 0)

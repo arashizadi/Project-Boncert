@@ -21,8 +21,10 @@ public class SongTriggerScript : MonoBehaviour
     	if(SongMenuEnter.gameObject.tag == "Player")
     	{
     		SongUI.SetActive(true);
-            Debug.Log("UI Active");
-    	}
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            //Debug.Log("UI Active");
+        }
     }
 
     void OnTriggerExit(Collider SongMenuExit)
@@ -30,7 +32,9 @@ public class SongTriggerScript : MonoBehaviour
         if(SongMenuExit.gameObject.tag == "Player")
         {
     	   SongUI.SetActive(false);
-           //Debug.Log("UI Deactive");
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            //Debug.Log("UI Deactive");
         }
     }
 }
