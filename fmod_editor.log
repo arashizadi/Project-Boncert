@@ -1,0 +1,124 @@
+[LOG] System::create                           : Header version = 2.01.07. Current version = 2.01.07.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20107 (113487), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=8, nSamplesPerSec=48000, nAvgBytesPerSec=1536000, nBlockAlign=32, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x0000063F, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] DownMix::init                            : dspbuffersize: 1024  rate: 48000. output speaker mode: 7, input speaker mode 3
+[LOG] DownMix::init                            : done.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 000002279AF82988 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = FMODAssets/Build/Master.assets.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000227ACB177A8 : node = 0000022729FE85C0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000022729E8C698.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000227ACB177A8
+[LOG] SystemI::createSoundInternal             :     Create name='FMODAssets/Build/Master.assets.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 97362880
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022729FE86D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Nitro Fun - Final Boss', format=5, channels=2, frequency=48000, lengthbytes=10022208, lengthpcm=15204519, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000227ACB177A8
+[LOG] SoundI::release                          : Shirobon - The Arcade Dream - 09 Ralf's Touch (00000227ACB17298)
+[LOG] SoundI::release                          :     Shirobon - The Arcade Dream - 09 Ralf's Touch (000002272BBD0868)
+[LOG] SoundI::release                          :     Shirobon - The Arcade Dream - 09 Ralf's Touch (00000227ACB19CC8)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SoundI::release                          : Nitro Fun - Final Boss (00000227ACB177A8)
+[LOG] SoundI::release                          :     Nitro Fun - Final Boss (000002272BBD0048)
+[LOG] SoundI::release                          :     Nitro Fun - Final Boss (00000227ACB1BE88)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b3c705b6-1a75-4b23-854b-15e5ced35806}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {dfb5459d-2751-4e1c-8fc5-fe64c0fed0b8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2bedea52-ff88-4101-bd45-7c4d28664a04}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f1d83bde-9a30-48b1-8394-ad3f1d98f362}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fa68cbf5-e887-4585-9f3a-58ecc9fe7fa2}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ccfff979-2d9b-4747-be0a-dfacfb5250e8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b010b702-360d-492f-b3b8-04f005f01c2c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e0160072-6c84-4c96-9fac-7efb5470240f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {6a1c2a5f-761e-4351-b140-a084a2f3d52a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {05799d55-35b1-4f08-81a6-c452cffed156}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2082c60a-551e-4180-b495-d8765385e8b8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {cb3608f7-39d3-4643-80c8-3347134fe9f9}
+[LOG] SystemI::createSound                     : filename = FMODAssets/Build/Master.assets.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000227ACB186D8 : node = 0000022729FE8980
+[LOG] SystemI::createSound                     : add node to async list : head = 0000022729E8C698.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000227ACB186D8
+[LOG] SystemI::createSoundInternal             :     Create name='FMODAssets/Build/Master.assets.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 97362880
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022729FE8A90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Destroid - Annihilate', format=5, channels=2, frequency=48000, lengthbytes=9271040, lengthpcm=14887148, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000227ACB186D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000227ACB177A8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000227ACB177A8
+[LOG] SystemI::createSound                     : filename = FMODAssets/Build/Master.assets.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000227ACB197B8 : node = 0000022729FE8340
+[LOG] SystemI::createSound                     : add node to async list : head = 0000022729E8C698.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000227ACB197B8
+[LOG] SystemI::createSoundInternal             :     Create name='FMODAssets/Build/Master.assets.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 97362880
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022729FE8450
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Nitro Fun - Final Boss', format=5, channels=2, frequency=48000, lengthbytes=10022208, lengthpcm=15204519, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000227ACB197B8
+[LOG] SoundI::release                          : Destroid - Annihilate (00000227ACB186D8)
+[LOG] SoundI::release                          :     Destroid - Annihilate (000002272BBCFD08)
+[LOG] SoundI::release                          :     Destroid - Annihilate (00000227ACB177A8)
+[LOG] SoundI::release                          : Nitro Fun - Final Boss (00000227ACB197B8)
+[LOG] SoundI::release                          :     Nitro Fun - Final Boss (000002272BBD0048)
+[LOG] SoundI::release                          :     Nitro Fun - Final Boss (00000227ACB181C8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

@@ -43,8 +43,9 @@ public class FMODAudioVisualizer : MonoBehaviour
     private int frameCount = 0;
 
     [Header("Song Change")]
+    [Range(0, 11)]
     public int NextPrevSong = 0;
-    float[] SongTime = {175f, 345f, 538f, 775f, 1023f, 1318f, 1582f, 1827f, 2233f, 2450f, 2766f};
+    float[] SongTime = {175f, 345f, 538f, 775f, 1023f, 1318f, 1582f, 1827f, 2233f, 2450f, 2766f, 3038f};
 
     private void Start()
     {
@@ -62,7 +63,6 @@ public class FMODAudioVisualizer : MonoBehaviour
         bandBuffer = new float[freqRanges.Count];
         bufferDecrease = new float[freqRanges.Count];
 
-        
         NextPrevSong = 0;
 }
 
@@ -130,7 +130,7 @@ public class FMODAudioVisualizer : MonoBehaviour
         }
     }
 
-    //The buttons that will change songs
+    //The buttons that will change songs forward
     public void NextSong()
     {
         NextPrevSong += 1;
@@ -141,6 +141,7 @@ public class FMODAudioVisualizer : MonoBehaviour
         SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
     }
 
+    //The buttons that will change songs back
     public void PrevSong()
     {
         NextPrevSong -= 1;
@@ -170,8 +171,6 @@ public class FMODAudioVisualizer : MonoBehaviour
         countFPS();
 
         AutomaticChange();
-
-        //SongPlaylist.setParameterByName("Song Changer", NextPrevSong);
     }
 
     private void GetSpectrumData()
