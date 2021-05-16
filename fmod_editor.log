@@ -9,30 +9,17 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000029714ECD068 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002DBB6DE3058 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b3c705b6-1a75-4b23-854b-15e5ced35806}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {dfb5459d-2751-4e1c-8fc5-fe64c0fed0b8}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2bedea52-ff88-4101-bd45-7c4d28664a04}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f1d83bde-9a30-48b1-8394-ad3f1d98f362}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fa68cbf5-e887-4585-9f3a-58ecc9fe7fa2}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ccfff979-2d9b-4747-be0a-dfacfb5250e8}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b010b702-360d-492f-b3b8-04f005f01c2c}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e0160072-6c84-4c96-9fac-7efb5470240f}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {6a1c2a5f-761e-4351-b140-a084a2f3d52a}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {05799d55-35b1-4f08-81a6-c452cffed156}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2082c60a-551e-4180-b495-d8765385e8b8}
-[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {cb3608f7-39d3-4643-80c8-3347134fe9f9}
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
