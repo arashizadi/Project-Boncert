@@ -20,6 +20,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-6140231299006371947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soundtrack/Song Changer
+  m_EditorClassIdentifier: 
+  Name: Song Changer
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5893174945695146342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,7 +55,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637567786577551103
+  lastModified: 637570319482511532
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -57,7 +77,7 @@ MonoBehaviour:
   lastModified: 637567786581603462
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3567005073902255721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,7 +97,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2470467464853192987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +137,6 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 9032527549474110175}
   - {fileID: -5893174945695146342}
-  - {fileID: -4852438553781819600}
   EditorEvents:
   - {fileID: 2505975949695439441}
   EditorParameters: []
@@ -125,7 +144,7 @@ MonoBehaviour:
   - {fileID: -5893174945695146342}
   StringsBanks:
   - {fileID: 9032527549474110175}
-  stringsBankWriteTime: 637567786581623169
+  stringsBankWriteTime: 637545174462900643
   cacheVersion: 6
 --- !u!114 &2505975949695439441
 MonoBehaviour:
@@ -147,7 +166,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3567005073902255721}
+  - {fileID: -6140231299006371947}
   MinDistance: 0
   MaxDistance: 0
   Length: 3037563
@@ -246,7 +265,7 @@ MonoBehaviour:
   Path: FMODAssets/Build/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637567786581623169
+  lastModified: 637545174462900643
   LoadResult: 0
   FileSizes:
   - Name: 
