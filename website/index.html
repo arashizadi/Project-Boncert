@@ -2,74 +2,76 @@
 <html>
     <head>
         <title>Welcome to Polyphonic</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
-    </body>
-    <script>
-        let img;
-        let num;
-        let fr;
-        let txtSize;
-        
-        function preload(){
-            img = loadImage('cityscape.png');
-            fnt = loadFont('Megrim-Regular.ttf');
-        }
-        
-        function setup() {
-            createCanvas(windowWidth, windowHeight);
-            img.resize(width,height);
-            background(0);
-            num = 1;
-            fr = 1;
-            txtSize = 1;
-            textFont(fnt);
-        }
-        
-        function draw() {
-            num += 0.2;
-            if (frameCount < 60) {
-                frameRate(fr*2);
+        <script>
+            let img;
+            let num;
+            let fr;
+            let txtSize;
+            
+            function preload(){
+                img = loadImage('cityscape.png');
+                fnt = loadFont('Megrim-Regular.ttf');
+            }
+            
+            function setup() {
+                createCanvas(windowWidth, windowHeight);
+                img.resize(width,height);
+                background(0);
                 num = 1;
-                fr += 1;
+                fr = 1;
+                txtSize = 1;
+                textFont(fnt);
             }
-            for(let i=0; i<int(num); i++){
-                let x = int(random(width));
-                let y = int(random(height));
-                let col = img.get(x, y);
-                let a = random(127, 255);
-                let br = brightness(col); 
-                let sat = saturation(col);
-                let h = hue(col);
-                let w = map(br, 0, 255, 10, 40);
-                let angle = map(h, 0, 255, 0, 90);
-                noStroke();
-                fill(red(col), green(col), blue(col), a);
-                
-                push();
-                translate(x, y);
-                rotate(radians(angle));
-                if(br>90) {
-                    circle(0,0,w/1.5);		
-                }else if(h>200) {
-                    rect(0,0,w,2);
-                }else{
-                    ellipse(0, 0, w, 5);
+            
+            function draw() {
+                num += 0.2;
+                if (frameCount < 60) {
+                    frameRate(fr*2);
+                    num = 1;
+                    fr += 1;
                 }
-                pop();
+                for(let i=0; i<int(num); i++){
+                    let x = int(random(width));
+                    let y = int(random(height));
+                    let col = img.get(x, y);
+                    let a = random(127, 255);
+                    let br = brightness(col); 
+                    let sat = saturation(col);
+                    let h = hue(col);
+                    let w = map(br, 0, 255, 10, 40);
+                    let angle = map(h, 0, 255, 0, 90);
+                    noStroke();
+                    fill(red(col), green(col), blue(col), a);
+                    
+                    push();
+                    translate(x, y);
+                    rotate(radians(angle));
+                    if(br>90) {
+                        circle(0,0,w/1.5);		
+                    }else if(h>200) {
+                        rect(0,0,w,2);
+                    }else{
+                        ellipse(0, 0, w, 5);
+                    }
+                    pop();
+                }
+                
+                if (frameCount > 800) {
+                    textAlign(CENTER);
+                    stroke(3);
+                    fill(255, 230, 255, 153);
+                    textSize(txtSize+50);
+                    text('POLYPHONIC', width/2, height/2-50);
+                    if (txtSize<60) 
+                        txtSize += 1;
+                    textSize(txtSize);
+                    text('Experience The Beat Together', width/2, height/2+80);
+                }
+                if (frameCount > 1100)
+                window.location.replace('~/main.html');
             }
-            
-            if (frameCount > 800) {
-                textAlign(CENTER);
-                stroke(3);
-                fill(255, 230, 255, 153);
-                textSize(txtSize+50);
-                text('POLYPHONIC', width/2, height/2-50);
-                if (txtSize<60) 
-                    txtSize += 1;
-                textSize(txtSize);
-                text('Experience The Beat Together', width/2, height/2+80);
-            }
-            
-        }
-                </script>
+                    </script>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+
 </html>
